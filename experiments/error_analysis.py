@@ -76,6 +76,10 @@ class NERErrortype(Enum):
     FN = 'false_negative'
     LE = 'labeling_error'
     BE = 'boundary_error'
+    BEs = 'boundary_error_smaller'
+    BEl = 'boundary_error_larger'
+    BEo = 'boundary_error_overlap'
+    BEsc = 'boundary_error_span_count'
     LBE = 'label_boundary_error'
 
 def _get_ranges_labels(seq):
@@ -88,14 +92,21 @@ def get_error_type(pred_sq, gt_seq):
         return NERErrortype.FN
     if not gt_seq:
         return NERErrortype.FP
-    pred_range, pred_labels = _get_ranges_labels(pred_sq)
-    gt_range, gt_labels = _get_ranges_labels(gt_seq)
-    if pred_range == gt_range:
+    pred_ranges, pred_labels = _get_ranges_labels(pred_sq)
+    gt_ranges, gt_labels = _get_ranges_labels(gt_seq)
+    if pred_ranges == gt_ranges:
         assert pred_labels != gt_labels
         return NERErrortype.LE
     else:
         if all([l1 == l2 for l1 in pred_labels for l2 in gt_labels]):
-            return NERErrortype.BE
+            if len(pred_ranges) != len(gt_ranges):
+                return NERErrortype.BEsc
+            elif all([p1 >= g1 and p2<=g2 for (p1, p2) in pred_ranges for (g1, g2) in gt_ranges]):
+                return NERErrortype.BEs
+            elif all([p1 <= g1 and p2>=g2 for (p1, p2) in pred_ranges for (g1, g2) in gt_ranges]):
+                return NERErrortype.BEl
+            else:
+                return NERErrortype.BEo
         else:
             return NERErrortype.LBE
         
