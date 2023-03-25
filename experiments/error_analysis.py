@@ -111,60 +111,61 @@ def get_error_type(pred_sq, gt_seq):
             return NERErrortype.LBE
         
 def ner_annotation_eval(predicted_entities, ground_truth_entities):
-    pred_idx = 0
-    gt_idx = 0
-
-    max_i = max(
-            max([p[1] for p in predicted_entities]) if predicted_entities else 0, 
-            max([p[1] for p in ground_truth_entities]) if ground_truth_entities else 0)
 
     results = []
     subsequence = ([],[])
-    flip_label_pred, flip_label_gt = False, False
 
-    def get_item(entity_list, idx, i=None):
-        return entity_list[idx] if idx < len(entity_list) and (not i or entity_list[idx][0] <= i) else None
+    start_index = 0
+    end_index = 0
+    matched_predicted_entities = []
+    matched_gt_entities = []
 
-    for i in range(0, max_i+1):
-        current_pred = get_item(predicted_entities, pred_idx, i)
-        current_gt = get_item(ground_truth_entities, gt_idx, i)
 
-        if current_pred and i in range(current_pred[0], current_pred[1]) and current_gt and (i in range(current_gt[0], current_gt[1])):  
-            # Still in the same span
-            continue
-        if current_pred and (i >= current_pred[1]):
-            subsequence[0].append(current_pred)
-            pred_idx += 1
-            next_pred = get_item(predicted_entities, pred_idx)
-            if next_pred and (current_pred[2] != next_pred[2]):
-                flip_label_pred = True
-        if current_gt and (i >= current_gt[1]):
+    for current_gt_i,current_gt in enumerate(ground_truth_entities):
+
+        #initialize first gt_entity
+        if start_index == 0: start_index = current_gt[0] 
+        if end_index == 0: end_index = current_gt[1]
+
+        #check if current_gt.start <= end_index && current_gt.end >= start_index
+        if current_gt[0] <= end_index and current_gt[1] >= start_index:
+            if current_gt[0] < start_index: start_index = current_gt[0]
+            if current_gt[1] > end_index: end_index = current_gt[1]
             subsequence[1].append(current_gt)
-            gt_idx += 1
-            next_gt = get_item(ground_truth_entities, gt_idx)
-            if next_gt and (current_gt[2] != next_gt[2]):
-                flip_label_gt = True
-        if ((not current_pred or (i >= current_pred[1])) and (not current_gt or (i >= current_gt[1]))) or (flip_label_pred and flip_label_gt):
-            if subsequence[0] or subsequence[1]:                
-                #pred_ranges, pred_labels = _get_ranges_labels(subsequence[0])
-                #match_ranges, match_labels = _get_ranges_labels(subsequence[1])
-                results.append({
-                    #'prediction_class': subsequence[0][2],
-                    #'prediction_start' : prediction[0],
-                    #'prediction_end': prediction[1],
-                    #'match_class': match[2] if match else None,
-                    #'match_start': match[0] if match else None,
-                    #'match_end': match[1] if match else None,
-                    'prediction' : subsequence[0],
-                    'match' : subsequence[1],
-                    'category' : get_error_type(subsequence[0], subsequence[1]).value
-                })
-                
-            subsequence = ([],[])
-            flip_label_pred, flip_label_gt = False, False
+            matched_gt_entities.append(current_gt)
 
-    assert not subsequence[0] and not subsequence[1]
-    
+        #leave loop, calc all preds in span, append result and reset for next span
+        if current_gt[0] > end_index or current_gt_i == len(ground_truth_entities)-1:
+            #iterate over all pred entities for the current span (start / end)
+            for current_pred_i, current_pred in enumerate(predicted_entities):
+                #check if current_pred.start <= end_index && current_pred.end >= start_index
+                if current_pred[0] <= end_index and current_pred[1] >= start_index:
+                    if current_pred[0] < start_index: start_index = current_pred[0]
+                    if current_pred[1] > end_index: end_index = current_pred[1]
+                    subsequence[0].append(current_pred)
+                    matched_predicted_entities.append(current_pred) #FP are later diffed based on this
+
+            results.append({
+            'prediction' : subsequence[0],
+            'match' : subsequence[1],
+            'category' : get_error_type(subsequence[0], subsequence[1]).value
+            })
+
+            #reset temp vars for iteration
+            subsequence = ([],[])
+            subsequence[1].append(current_gt)
+            start_index = current_gt[0]
+            end_index = current_gt[1]
+        
+    #handle FP cases
+    unmatched_predicted_entities = list(set(predicted_entities) - set(matched_predicted_entities))
+    for unmatched_pred in unmatched_predicted_entities:
+            results.append({
+            'prediction' : [unmatched_pred],
+            'match' : [],
+            'category' : get_error_type(unmatched_pred, None).value
+            })
+        
     return results
 
 def ner_check_error_type(predicted_entity, ground_truth_entities):
