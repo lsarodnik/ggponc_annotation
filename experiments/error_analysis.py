@@ -140,8 +140,6 @@ def ner_annotation_eval(predicted_entities, ground_truth_entities):
             for current_pred_i, current_pred in enumerate(predicted_entities):
                 #check if current_pred.start <= end_index && current_pred.end >= start_index
                 if current_pred[0] <= end_index and current_pred[1] >= start_index:
-                    if current_pred[0] < start_index: start_index = current_pred[0]
-                    if current_pred[1] > end_index: end_index = current_pred[1]
                     subsequence[0].append(current_pred)
                     matched_predicted_entities.append(current_pred) #FP are later diffed based on this
 
