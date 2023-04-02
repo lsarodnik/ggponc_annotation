@@ -63,10 +63,12 @@ def ner_error_analyis(sentence, gt_labels, pred_labels, special_tokens_mask, tok
     pred_spans =  convert_to_spans(sentence, pred_labels, tokenizer, id2label, special_tokens_mask, skip_subwords)
     return _ner_error_analyis(pred_spans, gt_spans)
 
-def _ner_error_analyis(pred_spans, gt_spans):
+def _ner_error_analyis(pred_spans, gt_spans,gt_passages):
     def hf_to_tuples(spans):
         return [(s['start'], s['end'], s['entity_group'], s['word']) for s in spans]
-    return ner_annotation_eval(hf_to_tuples(pred_spans), hf_to_tuples(gt_spans))
+    def passages_to_tuples(spans):
+        return [(s['start'], s['end'], s['sentence']) for s in spans]
+    return ner_annotation_eval(hf_to_tuples(pred_spans), hf_to_tuples(gt_spans), passages_to_tuples(gt_passages))
 
 from enum import Enum
 
@@ -79,7 +81,6 @@ class NERErrortype(Enum):
     BEs = 'boundary_error_smaller'
     BEl = 'boundary_error_larger'
     BEo = 'boundary_error_overlap'
-    BEsc = 'boundary_error_span_count'
     LBE = 'label_boundary_error'
 
 def _get_ranges_labels(seq):
@@ -87,157 +88,180 @@ def _get_ranges_labels(seq):
     return zip(*[((s[0], s[1]), s[2]) for s in seq])
 
 def get_complex_error_types(pred_sq_list, gt_seq_list):
+
     error_types = []
 
-   #reduce detected GT entities by TP's (if any)
+    pred_sq_list_tmp = pred_sq_list.copy()
+    gt_seq_list_tmp = gt_seq_list.copy()
+
+    #remove entities from temp list when matched
+    def rem_matched_entities(p_entity, gt_entity):
+        if p_entity in pred_sq_list_tmp:
+            print("removed: ")
+            print(p_entity)
+            pred_sq_list_tmp.remove(p_entity)
+        if gt_entity in gt_seq_list_tmp:
+            gt_seq_list_tmp.remove(gt_entity)
+
+    #reduce entities by TP's (if any)
     for gt_seq in gt_seq_list:
-        
         for pred_sq in pred_sq_list:
               if pred_sq == gt_seq:
                 error_types.append(NERErrortype.TP)
-                pred_sq_list.remove(pred_sq)
-                gt_seq_list.remove(gt_seq)
+                rem_matched_entities(pred_sq,gt_seq)
+                break
+
+    #reduce pred entities by BE's and LBE's (if any)
+    for pred_sq in pred_sq_list_tmp[:]:     
+        for gt_seq in gt_seq_list:
+            print(pred_sq)
+            print(gt_seq)
+
+            #labels match -> BE, not matching -> LBE
+            if gt_seq[2] == pred_sq[2]:
+                #pred is smaller then GT
+                if pred_sq[0] >= gt_seq[0] and pred_sq[1]<=gt_seq[1]:
+                    error_types.append(NERErrortype.BEs)
+                    rem_matched_entities(pred_sq,gt_seq)
+                    break
+                elif pred_sq[0] <= gt_seq[0] and pred_sq[1]>=gt_seq[1]:
+                    error_types.append(NERErrortype.BEl)
+                    rem_matched_entities(pred_sq, gt_seq)
+                    break
+                elif pred_sq[0] <= gt_seq[1] and gt_seq[0] <= pred_sq[1]:
+                    error_types.append(NERErrortype.BEo)
+                    rem_matched_entities(pred_sq, gt_seq)
+                    break
+            elif pred_sq[0] <= gt_seq[1] and gt_seq[0] <= pred_sq[1]:
+                error_types.append(NERErrortype.LBE)
+                rem_matched_entities(pred_sq, gt_seq)
                 break
     
-    #reduce detected GT entities by LE's (if any)
-    for gt_seq in gt_seq_list:          
+    #reduce GT entities by BE's and LBE's (if any)
+    for gt_seq in gt_seq_list_tmp[:]:     
         for pred_sq in pred_sq_list:
-            pred_ranges, pred_labels = _get_ranges_labels(pred_sq)
-            gt_ranges, gt_labels = _get_ranges_labels(gt_seq)
-            if pred_ranges == gt_ranges:
-                assert pred_labels != gt_labels
-                error_types.append(NERErrortype.LE)
-                pred_sq_list.remove(pred_sq)
-                gt_seq_list.remove(gt_seq)
-                break
-    #reduce detected GT entities by Be's and LBE's (if any)
-    for gt_seq in gt_seq_list:     
-        for pred_sq in pred_sq_list:
-            pred_ranges, pred_labels = _get_ranges_labels(pred_sq)
-            gt_ranges, gt_labels = _get_ranges_labels(gt_seq)
-            if all([l1 == l2 for l1 in pred_labels for l2 in gt_labels]):
-                if len(pred_ranges) != len(gt_ranges):
-                    error_types.append(NERErrortype.BEsc)
-                    pred_sq_list.remove(pred_sq)
-                    gt_seq_list.remove(gt_seq)
-                    break
-                elif all([p1 >= g1 and p2<=g2 for (p1, p2) in pred_ranges for (g1, g2) in gt_ranges]):
+            print(pred_sq)
+            print(gt_seq)
+
+            #labels match -> BE, not matching -> LBE
+            if gt_seq[2] == pred_sq[2]:
+                #pred is smaller then GT
+                if pred_sq[0] >= gt_seq[0] and pred_sq[1]<=gt_seq[1]:
                     error_types.append(NERErrortype.BEs)
-                    pred_sq_list.remove(pred_sq)
-                    gt_seq_list.remove(gt_seq)
+                    rem_matched_entities(pred_sq,gt_seq)
                     break
-                elif all([p1 <= g1 and p2>=g2 for (p1, p2) in pred_ranges for (g1, g2) in gt_ranges]):
+                elif pred_sq[0] <= gt_seq[0] and pred_sq[1]>=gt_seq[1]:
                     error_types.append(NERErrortype.BEl)
-                    pred_sq_list.remove(pred_sq)
-                    gt_seq_list.remove(gt_seq)
+                    rem_matched_entities(pred_sq, gt_seq)
                     break
-                elif all([p1 <= g2 and g1 <= p2 for (p1, p2) in pred_ranges for (g1, g2) in gt_ranges]):
+                elif pred_sq[0] <= gt_seq[1] and gt_seq[0] <= pred_sq[1]:
                     error_types.append(NERErrortype.BEo)
-                    pred_sq_list.remove(pred_sq)
-                    gt_seq_list.remove(gt_seq)
+                    rem_matched_entities(pred_sq, gt_seq)
                     break
-            elif all([p1 <= g2 and g1 <= p2 for (p1, p2) in pred_ranges for (g1, g2) in gt_ranges]):
+            elif pred_sq[0] <= gt_seq[1] and gt_seq[0] <= pred_sq[1]:
                 error_types.append(NERErrortype.LBE)
-                pred_sq_list.remove(pred_sq)
-                gt_seq_list.remove(gt_seq)
+                rem_matched_entities(pred_sq, gt_seq)
                 break
+    
+    #weird fix
+    pred_sq_list_tmp2 = pred_sq_list_tmp.copy()
+    gt_seq_list_tmp2 =  gt_seq_list_tmp.copy()
 
-    #add FN error, for all left GT entities
-    for gt_seq in gt_seq_list:
-        error_types.append(NERErrortype.FN)
-        gt_seq_list.remove(gt_seq)
-
-    #add FP error, for all left Pred entities
-    for pred_sq in pred_sq_list:
+    #remaining pred entities are FP's
+    print("pred_sq_list_tmp before loop")
+    print(pred_sq_list_tmp2)
+    for p in pred_sq_list_tmp2:
+        print("current p in reducing For:")
+        print(p)
         error_types.append(NERErrortype.FP)
-        pred_sq_list.remove(pred_sq)
-        
-    assert len(pred_sq_list) == 0 and len(gt_seq_list)==0
+        rem_matched_entities(p, None)
+
+    #remaining GT entities are FN's
+    for gt in gt_seq_list_tmp2:
+        error_types.append(NERErrortype.FN)
+        rem_matched_entities(None, gt)
+
+    print("pred_sq_list_tmp")
+    print(pred_sq_list_tmp)
+    print("gt_seq_list_tmp")
+    print(gt_seq_list_tmp)
+
+    assert len(pred_sq_list_tmp) == 0 and len(gt_seq_list_tmp)==0
+
 
     return error_types
- 
-
-
 
 
 def get_simple_error_types(pred_sq_list, gt_seq_list):
     error_types = []
-   
+    pred_sq_list_tmp = pred_sq_list.copy()
+    gt_seq_list_tmp = gt_seq_list.copy()
     for gt_seq in gt_seq_list:
         #reduce detected GT entities by TP's (if any)
         for pred_sq in pred_sq_list:
               if pred_sq == gt_seq:
                 error_types.append(NERErrortype.TP)
-                pred_sq_list.remove(pred_sq)
-                gt_seq_list.remove(gt_seq)
+                pred_sq_list_tmp.remove(pred_sq)
+                gt_seq_list_tmp.remove(gt_seq)
 
-    for _ in pred_sq_list:
+    for _ in pred_sq_list_tmp:
         error_types.append(NERErrortype.FP)
     
-    for _ in gt_seq_list:
+    for _ in gt_seq_list_tmp:
         error_types.append(NERErrortype.FN)
 
     return error_types
 
 
+
+
+
         
-def ner_annotation_eval(predicted_entities, ground_truth_entities, analysis_type='complex'):
+def ner_annotation_eval(predicted_entities, ground_truth_entities, ground_truth_sentences, analysis_type='complex'):
 
     results = []
-    subsequence = ([],[])
 
-    start_index = 0
-    end_index = 0
-    matched_predicted_entities = []
-    matched_gt_entities = []
+    #sentence based processing
+    for sentence in ground_truth_sentences:
 
+        #reset matched entities per sentence
+        current_sentence_gt_entities = []
+        current_sentence_pred_entities = []
 
-    for current_gt_i,current_gt in enumerate(ground_truth_entities):
-
-        #initialize first gt_entity
-        if start_index == 0: start_index = current_gt[0] 
-        if end_index == 0: end_index = current_gt[1]
-
-        #check if current_gt.start <= end_index && current_gt.end >= start_index
-        if current_gt[0] <= end_index and current_gt[1] >= start_index:
-            if current_gt[0] < start_index: start_index = current_gt[0]
-            if current_gt[1] > end_index: end_index = current_gt[1]
-            subsequence[1].append(current_gt)
-            matched_gt_entities.append(current_gt)
-
-        #leave loop, calc all preds in span, append result and reset for next span
-        if current_gt[0] > end_index or current_gt_i == len(ground_truth_entities)-1:
-            #iterate over all pred entities for the current span (start / end)
-            for current_pred_i, current_pred in enumerate(predicted_entities):
-                #check if current_pred.start <= end_index && current_pred.end >= start_index
-                if current_pred[0] <= end_index and current_pred[1] >= start_index:
-                    #if current_pred[0] < start_index: start_index = current_pred[0]
-                    #if current_pred[1] > end_index: end_index = current_pred[1]
-                    subsequence[0].append(current_pred)
-                    matched_predicted_entities.append(current_pred) #FP are later diffed based on this
-            error_types = get_simple_error_types(subsequence[0], subsequence[1]) if analysis_type=='simple' else get_complex_error_types(subsequence[0], subsequence[1])
-            results.append({
-            'prediction' : subsequence[0],
-            'match' : subsequence[1],
-            'category' : error_types
-            })
-
-            #reset temp vars for iteration
-            subsequence = ([],[])
-            subsequence[1].append(current_gt)
-            start_index = current_gt[0]
-            end_index = current_gt[1]
+        #all gt's of the sentence
+        for gt_entry in ground_truth_entities:
+            if gt_entry[0] >= sentence[0] and gt_entry[1] <= sentence[1]:
+                current_sentence_gt_entities.append(gt_entry)
+         #all pred's of the sentence
+        for pred_entry in predicted_entities:
+            if pred_entry[0] >= sentence[0] and pred_entry[1] <= sentence[1]:
+                current_sentence_pred_entities.append(pred_entry)
         
-    #handle FP cases
-    unmatched_predicted_entities = list(set(predicted_entities) - set(matched_predicted_entities))
-    for unmatched_pred in unmatched_predicted_entities:
-            error_types = get_simple_error_types(unmatched_pred, None) if analysis_type=='simple' else get_complex_error_types(unmatched_pred, None)
-            results.append({
-            'prediction' : [unmatched_pred],
-            'match' : [],
-            'category' : error_types
-            })
+        #omit sentences without entities
+        if not current_sentence_gt_entities and not current_sentence_pred_entities:
+            print("skipped:")
+            print(sentence)
+            continue
         
+        print("not skipped")
+        print(sentence)
+
+
+        print("current_sentence_gt:")
+        print(current_sentence_gt_entities)
+        print("current_sentence_pred:")
+        print(current_sentence_pred_entities)
+
+
+        #choose error_analysis type
+        error_types = get_simple_error_types(current_sentence_pred_entities, current_sentence_gt_entities) if analysis_type=='simple' else get_complex_error_types(current_sentence_pred_entities, current_sentence_gt_entities)
+
+        results.append({
+        'sentence': sentence[2],
+        'predictions' : current_sentence_pred_entities,
+        'matches': current_sentence_gt_entities,
+        'categories': [e.value for e in error_types]
+        })
     return results
 
 def ner_check_error_type(predicted_entity, ground_truth_entities):
