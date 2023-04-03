@@ -84,7 +84,6 @@ class NERErrortype(Enum):
     LBE = 'label_boundary_error'
 
 def _get_ranges_labels(seq):
-    print(seq)
     return zip(*[((s[0], s[1]), s[2]) for s in seq])
 
 def get_complex_error_types(pred_sq_list, gt_seq_list):
@@ -112,8 +111,6 @@ def get_complex_error_types(pred_sq_list, gt_seq_list):
     #reduce pred entities by BE's and LBE's (if any)
     for pred_sq in pred_sq_list_tmp[:]:     
         for gt_seq in gt_seq_list:
-            print(pred_sq)
-            print(gt_seq)
 
             #labels match -> BE, not matching -> LBE
             if gt_seq[2] == pred_sq[2]:
@@ -138,8 +135,6 @@ def get_complex_error_types(pred_sq_list, gt_seq_list):
     #reduce GT entities by BE's and LBE's (if any)
     for gt_seq in gt_seq_list_tmp[:]:     
         for pred_sq in pred_sq_list:
-            print(pred_sq)
-            print(gt_seq)
 
             #labels match -> BE, not matching -> LBE
             if gt_seq[2] == pred_sq[2]:
