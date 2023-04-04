@@ -58,15 +58,17 @@ def convert_to_spans(sentence, labels, tokenizer, id2label, special_token_mask, 
 
     return output_spans
 
-def ner_error_analyis(sentence, gt_labels, pred_labels, special_tokens_mask, tokenizer, id2label, skip_subwords=False):
+def ner_error_analysis(sentence, gt_labels, pred_labels, special_tokens_mask, tokenizer, id2label, skip_subwords=False):
     gt_spans = convert_to_spans(sentence, gt_labels, tokenizer, id2label, special_tokens_mask, skip_subwords)
     pred_spans =  convert_to_spans(sentence, pred_labels, tokenizer, id2label, special_tokens_mask, skip_subwords)
-    return _ner_error_analyis(pred_spans, gt_spans)
+    return _ner_error_analysis(pred_spans, gt_spans)
 
-def _ner_error_analyis(pred_spans, gt_spans):
+def _ner_error_analysis(pred_spans, gt_spans,gt_passages,analysis_type='complex'):
     def hf_to_tuples(spans):
         return [(s['start'], s['end'], s['entity_group'], s['word']) for s in spans]
-    return ner_annotation_eval(hf_to_tuples(pred_spans), hf_to_tuples(gt_spans))
+    def passages_to_tuples(spans):
+        return [(s['start'], s['end'], s['sentence'],s['sentence_id']) for s in spans]
+    return ner_annotation_eval(hf_to_tuples(pred_spans), hf_to_tuples(gt_spans), passages_to_tuples(gt_passages),analysis_type)
 
 from enum import Enum
 
@@ -79,91 +81,163 @@ class NERErrortype(Enum):
     BEs = 'boundary_error_smaller'
     BEl = 'boundary_error_larger'
     BEo = 'boundary_error_overlap'
-    BEsc = 'boundary_error_span_count'
     LBE = 'label_boundary_error'
 
 def _get_ranges_labels(seq):
     return zip(*[((s[0], s[1]), s[2]) for s in seq])
 
-def get_error_type(pred_sq, gt_seq):
-    if pred_sq == gt_seq:
-        return NERErrortype.TP
-    if not pred_sq:
-        return NERErrortype.FN
-    if not gt_seq:
-        return NERErrortype.FP
-    pred_ranges, pred_labels = _get_ranges_labels(pred_sq)
-    gt_ranges, gt_labels = _get_ranges_labels(gt_seq)
-    if pred_ranges == gt_ranges:
-        assert pred_labels != gt_labels
-        return NERErrortype.LE
-    else:
-        if all([l1 == l2 for l1 in pred_labels for l2 in gt_labels]):
-            if len(pred_ranges) != len(gt_ranges):
-                return NERErrortype.BEsc
-            elif all([p1 >= g1 and p2<=g2 for (p1, p2) in pred_ranges for (g1, g2) in gt_ranges]):
-                return NERErrortype.BEs
-            elif all([p1 <= g1 and p2>=g2 for (p1, p2) in pred_ranges for (g1, g2) in gt_ranges]):
-                return NERErrortype.BEl
-            else:
-                return NERErrortype.BEo
-        else:
-            return NERErrortype.LBE
+def get_complex_error_types(pred_sq_list, gt_seq_list):
+
+    error_types = []
+
+    pred_sq_list_tmp = pred_sq_list.copy()
+    gt_seq_list_tmp = gt_seq_list.copy()
+
+    #remove entities from temp list when matched
+    def rem_matched_entities(p_entity, gt_entity):
+        if p_entity in pred_sq_list_tmp:
+            pred_sq_list_tmp.remove(p_entity)
+        if gt_entity in gt_seq_list_tmp:
+            gt_seq_list_tmp.remove(gt_entity)
+
+    #reduce entities by TP's (if any)
+    for gt_seq in gt_seq_list:
+        for pred_sq in pred_sq_list:
+              if pred_sq == gt_seq:
+                error_types.append([(pred_sq), (gt_seq), NERErrortype.TP])
+                rem_matched_entities(pred_sq,gt_seq)
+                break
+
+    #reduce pred entities by BE's and LBE's (if any)
+    for pred_sq in pred_sq_list_tmp[:]:     
+        for gt_seq in gt_seq_list:
+
+            #labels match -> BE, not matching -> LBE
+            if gt_seq[2] == pred_sq[2]:
+                #pred is smaller then GT
+                if pred_sq[0] >= gt_seq[0] and pred_sq[1]<=gt_seq[1]:
+                    error_types.append([(pred_sq), (gt_seq), NERErrortype.BEs])
+                    rem_matched_entities(pred_sq,gt_seq)
+                    break
+                elif pred_sq[0] <= gt_seq[0] and pred_sq[1]>=gt_seq[1]:
+                    error_types.append([(pred_sq), (gt_seq), NERErrortype.BEl])
+                    rem_matched_entities(pred_sq, gt_seq)
+                    break
+                elif pred_sq[0] <= gt_seq[1] and gt_seq[0] <= pred_sq[1]:
+                    error_types.append([(pred_sq), (gt_seq), NERErrortype.BEo])
+                    rem_matched_entities(pred_sq, gt_seq)
+                    break
+            elif pred_sq[0] == gt_seq[0] and pred_sq[1] == gt_seq[1]:
+                error_types.append([(pred_sq), (gt_seq),NERErrortype.LE])
+                rem_matched_entities(pred_sq, gt_seq)
+                break
+            elif pred_sq[0] <= gt_seq[1] and gt_seq[0] <= pred_sq[1]:
+                error_types.append([(pred_sq), (gt_seq),NERErrortype.LBE])
+                rem_matched_entities(pred_sq, gt_seq)
+                break
+    
+    #reduce GT entities by BE's and LBE's (if any)
+    for gt_seq in gt_seq_list_tmp[:]:     
+        for pred_sq in pred_sq_list:
+
+            #labels match -> BE, not matching -> LBE
+            if gt_seq[2] == pred_sq[2]:
+                #pred is smaller then GT
+                if pred_sq[0] >= gt_seq[0] and pred_sq[1]<=gt_seq[1]:
+                    error_types.append([(pred_sq), (gt_seq), NERErrortype.BEs])
+                    rem_matched_entities(pred_sq,gt_seq)
+                    break
+                elif pred_sq[0] <= gt_seq[0] and pred_sq[1]>=gt_seq[1]:
+                    error_types.append([(pred_sq), (gt_seq),NERErrortype.BEl])
+                    rem_matched_entities(pred_sq, gt_seq)
+                    break
+                elif pred_sq[0] <= gt_seq[1] and gt_seq[0] <= pred_sq[1]:
+                    error_types.append([(pred_sq), (gt_seq),NERErrortype.BEo])
+                    rem_matched_entities(pred_sq, gt_seq)
+                    break
+            elif pred_sq[0] == gt_seq[0] and pred_sq[1] == gt_seq[1]:
+                error_types.append([(pred_sq), (gt_seq), NERErrortype.LE])
+                rem_matched_entities(pred_sq, gt_seq)
+                break
+            elif pred_sq[0] <= gt_seq[1] and gt_seq[0] <= pred_sq[1]:
+                error_types.append([(pred_sq), (gt_seq), NERErrortype.LBE])
+                rem_matched_entities(pred_sq, gt_seq)
+                break
+    
+    #remaining pred entities are FP's
+    for p in pred_sq_list_tmp[:]:
+        error_types.append([(p), (), NERErrortype.FP])
+        rem_matched_entities(p, None)
+
+    #remaining GT entities are FN's
+    for gt in gt_seq_list_tmp[:]:
+        error_types.append([(), (gt), NERErrortype.FN])
+        rem_matched_entities(None, gt)
+
+    assert len(pred_sq_list_tmp) == 0 and len(gt_seq_list_tmp)==0
+
+
+    return error_types
+
+
+def get_simple_error_types(pred_sq_list, gt_seq_list):
+    error_types = []
+    pred_sq_list_tmp = pred_sq_list.copy()
+    gt_seq_list_tmp = gt_seq_list.copy()
+    for gt_seq in gt_seq_list:
+        #reduce detected GT entities by TP's (if any)
+        for pred_sq in pred_sq_list:
+              if pred_sq == gt_seq:
+                error_types.append([(pred_sq), (gt_seq), NERErrortype.TP])
+                pred_sq_list_tmp.remove(pred_sq)
+                gt_seq_list_tmp.remove(gt_seq)
+
+    for p in pred_sq_list_tmp:
+        error_types.append([(p), (), NERErrortype.FP])
+    
+    for gt in gt_seq_list_tmp:
+        error_types.append([(), (gt), NERErrortype.FN])
+
+    return error_types
+
+
+
+
+
         
-def ner_annotation_eval(predicted_entities, ground_truth_entities):
+def ner_annotation_eval(predicted_entities, ground_truth_entities, ground_truth_sentences, analysis_type):
 
     results = []
-    subsequence = ([],[])
 
-    start_index = 0
-    end_index = 0
-    matched_predicted_entities = []
-    matched_gt_entities = []
+    #sentence based processing
+    for sentence in ground_truth_sentences:
 
+        #reset matched entities per sentence
+        current_sentence_gt_entities = []
+        current_sentence_pred_entities = []
 
-    for current_gt_i,current_gt in enumerate(ground_truth_entities):
-
-        #initialize first gt_entity
-        if start_index == 0: start_index = current_gt[0] 
-        if end_index == 0: end_index = current_gt[1]
-
-        #check if current_gt.start <= end_index && current_gt.end >= start_index
-        if current_gt[0] <= end_index and current_gt[1] >= start_index:
-            if current_gt[0] < start_index: start_index = current_gt[0]
-            if current_gt[1] > end_index: end_index = current_gt[1]
-            subsequence[1].append(current_gt)
-            matched_gt_entities.append(current_gt)
-
-        #leave loop, calc all preds in span, append result and reset for next span
-        if current_gt[0] > end_index or current_gt_i == len(ground_truth_entities)-1:
-            #iterate over all pred entities for the current span (start / end)
-            for current_pred_i, current_pred in enumerate(predicted_entities):
-                #check if current_pred.start <= end_index && current_pred.end >= start_index
-                if current_pred[0] <= end_index and current_pred[1] >= start_index:
-                    subsequence[0].append(current_pred)
-                    matched_predicted_entities.append(current_pred) #FP are later diffed based on this
-
-            results.append({
-            'prediction' : subsequence[0],
-            'match' : subsequence[1],
-            'category' : get_error_type(subsequence[0], subsequence[1]).value
-            })
-
-            #reset temp vars for iteration
-            subsequence = ([],[])
-            subsequence[1].append(current_gt)
-            start_index = current_gt[0]
-            end_index = current_gt[1]
+        #all gt's of the sentence
+        for gt_entry in ground_truth_entities:
+            if gt_entry[0] >= sentence[0] and gt_entry[1] <= sentence[1]:
+                current_sentence_gt_entities.append(gt_entry)
+         #all pred's of the sentence
+        for pred_entry in predicted_entities:
+            if pred_entry[0] >= sentence[0] and pred_entry[1] <= sentence[1]:
+                current_sentence_pred_entities.append(pred_entry)
         
-    #handle FP cases
-    unmatched_predicted_entities = list(set(predicted_entities) - set(matched_predicted_entities))
-    for unmatched_pred in unmatched_predicted_entities:
+        #omit sentences without entities
+        if not current_sentence_gt_entities and not current_sentence_pred_entities:
+            continue
+
+        #choose error_analysis type
+        error_types = get_simple_error_types(current_sentence_pred_entities, current_sentence_gt_entities) if analysis_type=='simple' else get_complex_error_types(current_sentence_pred_entities, current_sentence_gt_entities)
+        for error in error_types:
             results.append({
-            'prediction' : [unmatched_pred],
-            'match' : [],
-            'category' : get_error_type(unmatched_pred, None).value
+            'sentence_id': sentence[3],
+            'prediction' : error[0],
+            'match': error[1],
+            'category': error[2].value
             })
-        
     return results
 
 def ner_check_error_type(predicted_entity, ground_truth_entities):
