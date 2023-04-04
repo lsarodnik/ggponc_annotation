@@ -127,6 +127,10 @@ def get_complex_error_types(pred_sq_list, gt_seq_list):
                     error_types.append([(pred_sq), (gt_seq), NERErrortype.BEo])
                     rem_matched_entities(pred_sq, gt_seq)
                     break
+            elif pred_sq[0] == gt_seq[0] and pred_sq[1] == gt_seq[1]:
+                error_types.append([(pred_sq), (gt_seq),NERErrortype.LE])
+                rem_matched_entities(pred_sq, gt_seq)
+                break
             elif pred_sq[0] <= gt_seq[1] and gt_seq[0] <= pred_sq[1]:
                 error_types.append([(pred_sq), (gt_seq),NERErrortype.LBE])
                 rem_matched_entities(pred_sq, gt_seq)
@@ -151,6 +155,10 @@ def get_complex_error_types(pred_sq_list, gt_seq_list):
                     error_types.append([(pred_sq), (gt_seq),NERErrortype.BEo])
                     rem_matched_entities(pred_sq, gt_seq)
                     break
+            elif pred_sq[0] == gt_seq[0] and pred_sq[1] == gt_seq[1]:
+                error_types.append([(pred_sq), (gt_seq), NERErrortype.LE])
+                rem_matched_entities(pred_sq, gt_seq)
+                break
             elif pred_sq[0] <= gt_seq[1] and gt_seq[0] <= pred_sq[1]:
                 error_types.append([(pred_sq), (gt_seq), NERErrortype.LBE])
                 rem_matched_entities(pred_sq, gt_seq)
@@ -226,9 +234,9 @@ def ner_annotation_eval(predicted_entities, ground_truth_entities, ground_truth_
         for error in error_types:
             results.append({
             'sentence_id': sentence[3],
-            'predictions' : error[0],
-            'matches': error[1],
-            'categories': error[2].value
+            'prediction' : error[0],
+            'match': error[1],
+            'category': error[2].value
             })
     return results
 
