@@ -1,0 +1,621 @@
+<Therapeutic>Die Operation(en)</Therapeutic> führten zu <Diagnostic>unterschiedlichen Histologie(n)</Diagnostic>.
+<Other_Finding>Kein Harnstau in der rechten Niere</Other_Finding>, <Other_Finding>Linke Niere und Milz nicht einsehbar</Other_Finding>.
+<Diagnostic>Röntgen-Thorax in 2 Ebenen mit <External_Substance>Breischluck</External_Substance></Diagnostic>: <Other_Finding>Linksbetontes Herz mit einem CT-Quotienten von 0,42 und freiem Retrokardialraum</Other_Finding>. <Other_Finding>Beidseitig dichte Hili</Other_Finding>. <Diagnosis_or_Pathology>Aortensklerose</Diagnosis_or_Pathology>. <Other_Finding>Lungen und Sinus ohne Befund</Other_Finding>.
+Das Landeskrankenhaus Neustadt verfügt über eine <Diagnosis_or_Pathology>Epilepsie-Einheit</Diagnosis_or_Pathology>.
+<Other_Finding>Normofrequenter Sinusrhythmus</Other_Finding>. Keine <Diagnosis_or_Pathology>signifikanten Pausen oder Blockierungen</Diagnosis_or_Pathology>. <Diagnosis_or_Pathology>Erhöhtes Vorkommen von supraventrikulären Extrasystolen (SVES)</Diagnosis_or_Pathology>. Keine <Diagnosis_or_Pathology>höhergradigen Herzrhythmusstörungen (HRS)</Diagnosis_or_Pathology>.
+Hirnnerven: <Other_Finding>Isokore Pupillen</Other_Finding>, <Other_Finding>prompte Reaktion auf Lichtreflexe, stetig</Other_Finding>, <Other_Finding>unbeeinträchtigte Beweglichkeit des Augapfels</Other_Finding>, <Other_Finding>unbeeinträchtigtes Fingerperimetrie-Gesichtsfeld</Other_Finding>
+Die Stadt <Diagnosis_or_Pathology>p N+MX</Diagnosis_or_Pathology> <Diagnosis_or_Pathology>G2</Diagnosis_or_Pathology> wird immer beliebter bei Touristen.
+Weiteres <Therapeutic>Prozedere</Therapeutic>: Das <Therapeutic>Prozedere</Therapeutic> wurde vom Arzt erklärt und die <Patienten>patienten</Patienten> stimmten zu.
+<Therapeutic>Die Krankengymnastik</Therapeutic> war sehr hilfreich für meine Rückenschmerzen.
+
+<Diagnostic>Blutdruckmessung</Diagnostic>
+<Diagnostic>Die Blutdruckmessung</Diagnostic> ergab einen erhöhten Wert.
+
+<Organ>Lunge</Organ>
+Die <Organ>Lunge</Organ> ist ein wichtiges Atmungsorgan.
+
+<Medication>Antibiotikum</Medication>
+Das <Medication>Antibiotikum</Medication> hat meine Infektion geheilt.
+
+<Procedure>Operation</Procedure>
+Die <Procedure>Operation</Procedure> verlief erfolgreich.
+
+<Anatomy>Magen</Anatomy>
+Der <Anatomy>Magen</Anatomy> ist ein Teil des Verdauungssystems.
+
+<Disease>Diabetes</Disease>
+<Diease>Diabetes</Disease> ist eine Stoffwechselerkrankung.
+
+<Symptom>Fieber</Symptom>
+Das <Symptom>Fieber</Symptom> ist ein Anzeichen für eine Infektion.
+
+<LabTest>Blutbild</LabTest>
+Das <LabTest>Blutbild</LabTest> zeigte eine Anämie.
+<Diagnosis_or_Pathology>Die Diagnosen</Diagnosis_or_Pathology> lauten: <Diagnosis_or_Pathology>narbige Blasenhalsstenose</Diagnosis_or_Pathology> und <Therapeutic>Prostata-Adenom-Enukleatio</Therapeutic> im Jahr 2006.
+<Clinical_Drug>NaCl 0,9%</Clinical_Drug> wird mit einer Rate von <Clinical_Drug>9,0ml/h</Clinical_Drug> (in einer Menge von <Clinical_Drug>500ml</Clinical_Drug>) verabreicht.
+<Diagnostic>Die durchgeführten Untersuchungen</Diagnostic>
+
+<Therapeutic>Verabreichte Medikamente</Therapeutic>
+<Therapeutic>Die verabreichten Medikamente</Therapeutic>
+
+<Anatomy>Verletzungen am Arm</Anatomy>
+<Anatomy>Die Verletzungen am Arm</Anatomy>
+
+<Organization>Organisation des Events</Organization>
+<Organization>Die Organisation des Events</Organization>
+
+<Person>Erwähnte Personen</Person>
+<Person>Die erwähnten Personen</Person>
+
+<Location>Ort des Geschehens</Location>
+<Location>Der Ort des Geschehens</Location>
+Seit 3 Tagen besteht eine <Diagnosis_or_Pathology>Enge in der Brust mit Ausstrahlung in die linke Schulter</Diagnosis_or_Pathology>. Es kommt zu <Diagnosis_or_Pathology>Atemnot</Diagnosis_or_Pathology>, die sich seit gestern verstärkt und mit einem <Diagnosis_or_Pathology>Schweregefühl in den Armen</Diagnosis_or_Pathology> einhergeht. Nach <Therapeutic>frustraner Anwendung des <Clinical_Drug>Nitroglyzerin-Sprays</Clinical_Drug></Therapeutic> erfolgte eine <Therapeutic>notfallmäßige Einweisung</Therapeutic>.
+Nachrichtlich: Prof. Dr. Dr. Waldemar Waldenström, Institut für <Diagnostic>Röntgendiagnostik</Diagnostic>, im Hause
+<Diagnostic>Anamnestische</Diagnostic> <Diagnosis_or_Pathology>Metastasierung eines malignen Melanoms</Diagnosis_or_Pathology>, eine <Diagnostic>vorherige CT-Untersuchung</Diagnostic> im Klinikum <Diagnosis_or_Pathology>DD</Diagnosis_or_Pathology>. <Diagnosis_or_Pathology>Tendenz zur Fortschreitung des Befunds</Diagnosis_or_Pathology>.
+Viele alte postischämische Läsionen, keine frischen Ischämien, keine Blutungen.
+<Clinical_Drug>Yomogi 30 Tropfen</Clinical_Drug>
+
+<Anatomy>Herz</Anatomy>
+<Anatomy>Das Herz</Anatomy>
+
+<Procedure>Blutentnahme</Procedure>
+<Procedure>Die Blutentnahme</Procedure>
+
+<Clinical_Diagnosis>Diabetes mellitus</Clinical_Diagnosis>
+<Clinical_Diagnosis>Der Diabetes mellitus</Clinical_Diagnosis>
+
+<Organism>Bacillus anthracis</Organism>
+<Organism>Der Bacillus anthracis</Organism>
+
+<Clinical_Drug>Paracetamol 500 mg</Clinical_Drug>
+<Clinical_Drug>Paracetamol 500 Milligramm</Clinical_Drug>
+Die <Other_Finding>Lumbale N18- und N20-Potentiale</Other_Finding> sind zeitgerecht, während die <Diagnosis_or_Pathology>cervikalen N30-Potentiale beidseitig leicht verzögert</Diagnosis_or_Pathology> sind. Die <Diagnosis_or_Pathology>zentral kortikalen Potentiale</Diagnosis_or_Pathology> sind deutlich latenzverzögert und zeigen eine Rechtsbetonung, während die <Other_Finding>Amplituden</Other_Finding> im unteren Normbereich liegen. Es gibt eine <Diagnosis_or_Pathology>konsekutive Verlangsamung der spinokortikalen Überleitungszeiten</Diagnosis_or_Pathology> beidseitig, wobei sie kortikal stärker ausgeprägt ist als lumbal. Der <Other_Finding>Befund</Other_Finding> spricht für eine <Diagnosis_or_Pathology>demyelinisierende, rechts cerebral betonte bilaterale Schädigung der zentralen Abschnitte der Tibialis-Afferenzen</Diagnosis_or_Pathology> mit Störungsschwerpunkt beidseitig oberhalb des Zervikalmarkes, passend zum <Other_Finding>klinischen Befund</Other_Finding>.
+<Other_Finding>Freie Beweglichkeit der Extremitäten</Other_Finding>. <Other_Finding>Unauffälliger Pulsstatus</Other_Finding>, keine <Diagnosis_or_Pathology>Strömungsgeräusche</Diagnosis_or_Pathology>, keine <Diagnosis_or_Pathology>peripheren Ödeme</Diagnosis_or_Pathology>. <Other_Finding>Neurologisch orientierend unauffällig</Other_Finding>.
+Die <Therapeutic>Medikation bei Entlassung</Therapeutic> wurde besprochen und die Patientin erhielt ihre Rezepte.
+<Diagnosis_or_Pathology>Leichte Rötung des Nasenrachens</Diagnosis_or_Pathology>
+
+<Therapeutic>Antibiotikum</Therapeutic> wurde verordnet.
+Am 23.04.2029 erfolgte ebenfalls die <Therapeutic>Deckung des mittlerweile <Diagnosis_or_Pathology>sauber granulierenden Defekts am II. Handrücken</Diagnosis_or_Pathology> mittels <Therapeutic>Spalthautsheet</Therapeutic>.
+<Diagnosis_or_Pathology>Das Infarktareal</Diagnosis_or_Pathology> zeigte.
+Herr Theodor nahm an der <Therapeutic>Feinmotorikgruppe</Therapeutic> teil und erhielt <Therapeutic>sensomotorisch-kognitives Einzeltraining</Therapeutic>. Es zeigten sich <Diagnosis_or_Pathology>dezente Koordinationsstörungen linksbetont</Diagnosis_or_Pathology> bei <Other_Finding>voll gegebenen Bewegungsausmaß</Other_Finding>. Der Patient ist <Other_Finding>im gesamten Alltag selbstständig</Other_Finding>. In <Therapeutic>Einzeltherapien</Therapeutic> und <Therapeutic>Gruppentherapien</Therapeutic> wurden <Therapeutic>Sensibiltätsschulungen und Feinmotoriktraining</Therapeutic> durchgeführt.
+Zur <Therapeutic>Fortführung der Therapie</Therapeutic> mit Woche 2 und 3 nach dem <Therapeutic>VAIA-Protokoll</Therapeutic> wird sich Frau Obradovic ambulant auf Station O-11 vorstellen. Eine stationäre Wiederaufnahme ist in der Woche 4 vorgesehen. Bei diesem Termin werden erneute <Diagnostic>MERT-Untersuchungen</Diagnostic> geplant, um <Therapeutic>das kurzfristige <Other_Finding>Ansprechen auf die Therapie</Other_Finding> zu evaluieren</Therapeutic>.
+Nase: <Diagnosis_or_Pathology>leichte Rötung der Nasenschleimhaut</Diagnosis_or_Pathology>
+Ergänzend die <Diagnostic>Durchführung einer Thoraxröntgenaufnahme</Diagnostic>, sämtliche <Other_Finding>Befunde</Other_Finding> werden in unserem <Diagnosis_or_Pathology>Tumor-Board</Diagnosis_or_Pathology> diskutiert.
+Letzte <Diagnostic>Durchuntersuchungen</Diagnostic>:  eine <Other_Finding>Kontrolle des Thorax per Röntgen</Other_Finding>, eine <Other_Finding>sonographische Untersuchung des Oberbauchs</Other_Finding>, eine <Other_Finding>sonographische Untersuchung der Achselhöhlen und Leistenregionen</Other_Finding>, welche unauffällig waren.
+<Diagnosis_or_Pathology>Infiltration der Harnblase</Diagnosis_or_Pathology> nicht ausschließen.
+<Diagnostic>Histologie</Diagnostic>: <Diagnosis_or_Pathology>Adenocarcinom</Diagnosis_or_Pathology>
+<Other_Finding>Lichtreaktion beidseitig direkt und indirekt prompt</Other_Finding>, <Other_Finding>Feuchtigkeit der Zunge, gerade</Other_Finding>, <Other_Finding>Rachenraum</Other_Finding> und <Other_Finding>blande Mundschleimhaut</Other_Finding>.
+Wir berichten Ihnen folgend über die oben genannte Patientin, die sich am 22.03.2023 in unserer <Therapeutic>teilstationären Behandlung</Therapeutic> befand.
+Die stationäre Aufnahme von Frau Damaris erfolgte zur <Therapeutic>Fortführung der palliativen Polychemotherapie nach dem Folfox-Schema, 3. Zyklus</Therapeutic>. Die Patientin berichtet über gute Verträglichkeit der <Therapeutic>letzten Therapie</Therapeutic>, sodass sie am Tag 1 <Clinical_Drug>Oxaliplatin 95mg/m²</Clinical_Drug>, <Clinical_Drug>Calciumfolinat 500mg/m²</Clinical_Drug>, <Clinical_Drug>5FU als Bolus 500mg/m²</Clinical_Drug> und <Clinical_Drug>5FU <Therapeutic>Dauerinfusion</Therapeutic> 2400mg/m² über 52 Stunden</Clinical_Drug> problemlos erhalten kann. Die <Therapeutic>Therapie</Therapeutic> wird unter entsprechenden <Therapeutic>antiemetischen Begleitmaßnahmen</Therapeutic> sehr gut vertragen, so dass Frau Damaris am 16.5.18 in <Other_Finding>gutem Allgemeinzustand</Other_Finding> nach Hause entlassen wird.
+<Diagnostic>Die körperliche Untersuchung</Diagnostic>
+
+<Therapeutic>Medikamentöse Therapie</Therapeutic>
+<Therapeutic>Die medikamentöse Therapie</Therapeutic>
+
+<Organisation>Universitätsklinikum</Organisation>
+<Organisation>Das Universitätsklinikum</Organisation>
+
+<Location>Intensivstation</Location>
+<Location>Die Intensivstation</Location>
+
+<Person>Arzt</Person>
+<Person>Der Arzt</Person>
+
+<MedicalCondition>Herzinfarkt</MedicalCondition>
+<MedicalCondition>Der Herzinfarkt</MedicalCondition>
+Wiedervorstellung am 13.11.2024 um 10.30 Uhr und am 20.11.2024 um 10.30 Uhr auf Station O-11 zur <Therapeutic>ambulanten Gabe</Therapeutic> von <Clinical_Drug>Vincristin</Clinical_Drug> (Woche 2-3 nach dem <Therapeutic>VAIA-Protokoll</Therapeutic>).
+<Diagnosis_or_Pathology>Die Diagnosen</Diagnosis_or_Pathology> wurden gestellt und besprochen.
+
+<Drug>Medikamente</Drug>: Die <Drug>Medikamente</Drug> müssen regelmäßig eingenommen werden.
+
+<Anatomy>Knochen</Anatomy>: Die <Anatomy>Knochen</Anatomy> sind gebrochen und müssen operiert werden.
+
+<Procedure>Operationen</Procedure>: Die <Procedure>Operationen</Procedure> wurden erfolgreich durchgeführt.
+
+<Lab>Blutwerte</Lab>: Die <Lab>Blutwerte</Lab> sind unauffällig.
+
+<Organism>Bakterien</Organism>: Die <Organism>Bakterien</Organism> wurden im Labor nachgewiesen.
+
+<Device>Geräte</Device>: Die <Device>Geräte</Device> müssen regelmäßig gewartet werden.
+
+<Phenomenon>Symptome</Phenomenon>: Die <Phenomenon>Symptome</Phenomenon> sind sehr belastend für den Patienten.
+
+<Therapeutic>Therapien</Therapeutic>: Die <Therapeutic>Therapien</Therapeutic> haben bisher keine Wirkung gezeigt.
+Die <Therapeutic>Entlassungsmedikation</Therapeutic> beinhaltete <Clinical_Drug>Diclofenac b.B.</Clinical_Drug>.
+<Diagnosis_or_Pathology>Vorerkrankungen</Diagnosis_or_Pathology>: 1990 <Therapeutic>Tonsillektomie</Therapeutic>, 2025 <Diagnosis_or_Pathology>Astvenenthrombose re. Auge</Diagnosis_or_Pathology>, seither <Diagnosis_or_Pathology>erhöhtes Kreatinin</Diagnosis_or_Pathology> und <Diagnosis_or_Pathology>Hypertonie</Diagnosis_or_Pathology> mit systolischem Blutdruck bis 210 mmHg.
+Die Patientin hat die <Therapeutic>letzte Chemotherapie</Therapeutic> gut vertragen - keine <Diagnosis_or_Pathology>Nebenwirkungen der <Therapeutic>Chemotherapie</Therapeutic>.</Diagnosis_or_Pathology>
+<Therapeutic>Der Verband</Therapeutic> darf niemals selbst gewechselt werden! Bei <Diagnosis_or_Pathology>Blutungen</Diagnosis_or_Pathology>, <Diagnosis_or_Pathology>Schmerzen</Diagnosis_or_Pathology> oder <Diagnosis_or_Pathology>Fieber</Diagnosis_or_Pathology> sollte sofort die Unfallchirurgische Ambulanz aufgesucht werden! Vorsicht bei <Therapeutic>Gipsverbänden</Therapeutic> - wenn <Diagnosis_or_Pathology>Schmerzen, Gefühllosigkeit oder Schwellungen auftreten</Diagnosis_or_Pathology>, sollte die Unf.-Chir. Klinik aufgesucht werden! Für die aus der Nichtbefolgung dieser Vorschrift möglicherweise eintretenden Folgen, lehnt die Klinik jede Verantwortung ab.
+<Diagnostic>Die durchgeführten Untersuchungen</Diagnostic>
+
+<Therapeutic>Verabreichte Medikamente</Therapeutic>
+<Therapeutic>Die verabreichten Medikamente</Therapeutic>
+
+<Anatomy>Verletzungen am Arm</Anatomy>
+<Anatomy>Die Verletzungen am Arm</Anatomy>
+
+<Organization>Organisation des Events</Organization>
+<Organization>Die Organisation des Events</Organization>
+
+<Person>Erwähnte Personen im Artikel</Person>
+<Person>Die erwähnten Personen im Artikel</Person>
+<Diagnosis_or_Pathology>Lymphknoten-Metastasen</Diagnosis_or_Pathology> in der <Diagnosis_or_Pathology>Axilla rechts</Diagnosis_or_Pathology> (<Diagnosis_or_Pathology>Erstdiagnose</Diagnosis_or_Pathology> 9/23)
+<Therapeutic>Therapie</Therapeutic> und <Diagnostic>Verlauf</Diagnostic>
+<Other_Finding>Zustand nach Mamma-Karzinom</Other_Finding> 2037, <Other_Finding>Zustand nach beidseitiger Hüft-TEP</Other_Finding> 2037 und 2035, <Diagnosis_or_Pathology>Nicht-ischämische neurogene Synkope</Diagnosis_or_Pathology>, <Diagnosis_or_Pathology>postoperatives akutes Nierenversagen</Diagnosis_or_Pathology>
+<Diagnosis_or_Pathology>Tumormarker</Diagnosis_or_Pathology>: Der <Diagnosis_or_Pathology>CEA-Wert</Diagnosis_or_Pathology> betrug 24.0, während der <Other_Finding>CA19-9-Wert</Other_Finding> bei 2.7 lag.
+<Diagnosis_or_Pathology>Tensio bei Entlassung</Diagnosis_or_Pathology>: R: 25 mmHg  L: 18 mmHg
+<Other_Finding>Laborwerte</Other_Finding>: <Other_Finding>Leukozytenzahl von 4,2*10³/µl</Other_Finding>, <Other_Finding>Hämoglobinwert von 15,9 g/dl</Other_Finding>, <Other_Finding>Hämatokritwert von 48,5 %</Other_Finding>, <Other_Finding>Thrombozytenzahl von 155*10³/µl</Other_Finding>, <Other_Finding>mittleres Zellvolumen von 94 µm³</Other_Finding>.
+<Other_Finding>Die Laborwerte</Other_Finding> vom 21.10.2033:
+<Other_Finding>HAV IgM-Nachweis</Other_Finding> und <Other_Finding>IgG-Negativität</Other_Finding>
+Sehr geehrte Frau Kollegin, sehr geehrter Herr Kollege, wir berichten Ihnen über unsere gemeinsame Patientin Fuss, Flora, geb. 28.05.2028, wohnhaft Florgasse 2, Wilhelmsburg, die vom 20.05.2034 bis 27.05.2034 bei uns in einer <Therapeutic>stationären Behandlung</Therapeutic> war.
+<Other_Finding>Zustand nach akuter Pankreatitis</Other_Finding>, <Therapeutic>Operation einer <Diagnosis_or_Pathology>Pankreaspseudozyste</Diagnosis_or_Pathology></Therapeutic> im Jahr 2022.
+Die <Diagnostic>Ganzkörperplethysmographie</Diagnostic> vom 09.09.2039 ergab <Other_Finding>eine TLC von 8,1 l, entsprechend dem Sollwert</Other_Finding>, sowie eine <Diagnosis_or_Pathology>IVC von 5,5 l</Diagnosis_or_Pathology> (Soll 6,2 l), eine <Diagnosis_or_Pathology>FEVI von 4,1 l</Diagnosis_or_Pathology> (Soll 4,3 l), einen <Diagnosis_or_Pathology>Tiffeneau-Index von 74 %</Diagnosis_or_Pathology> und einen <Diagnosis_or_Pathology>Strömungswiderstand von 0,16 kPa*s/1</Diagnosis_or_Pathology> (Soll 0,19 kPa*s/1). Im Vergleich zu den <Other_Finding>Befunden</Other_Finding> vor 4 Jahren war der <Diagnosis_or_Pathology>FEV1 damals 4,2 l</Diagnosis_or_Pathology> und die <Diagnosis_or_Pathology>Vitalkapazität 6 l</Diagnosis_or_Pathology>, damit ist ein etwas <Diagnosis_or_Pathology>überproportionaler Lungenfunktionsrückgang</Diagnosis_or_Pathology> dokumentiert.
+<Diagnosis_or_Pathology>Die Diagnosen</Diagnosis_or_Pathology> wurden gestellt und besprochen.
+
+<Drug>Medikamente</Drug>: Die <Drug>Medikamente</Drug> müssen regelmäßig eingenommen werden.
+
+<Anatomy>Knochen</Anatomy>: Die <Anatomy>Knochen</Anatomy> sind gebrochen und müssen operiert werden.
+
+<Procedure>Operationen</Procedure>: Die <Procedure>Operationen</Procedure> wurden erfolgreich durchgeführt.
+
+<Lab>Blutwerte</Lab>: Die <Lab>Blutwerte</Lab> sind unauffällig.
+
+<Organism>Bakterien</Organism>: Die <Organism>Bakterien</Organism> wurden im Labor nachgewiesen.
+
+<Device>Geräte</Device>: Die <Device>Geräte</Device> müssen regelmäßig gewartet werden.
+
+<Phenomenon>Symptome</Phenomenon>: Die <Phenomenon>Symptome</Phenomenon> sind sehr belastend für den Patienten.
+
+<Therapeutic>Therapien</Therapeutic>: Die <Therapeutic>Therapien</Therapeutic> haben bisher keine Wirkung gezeigt.
+Über die genauen Entwicklungen in den <Therapeutic>Therapien</Therapeutic> verweise ich auf die beigelegten <Therapeutic>Therapieberichte</Therapeutic>.
+2. Die <Diagnosis_or_Pathology>Grundkrankheit</Diagnosis_or_Pathology> ist die <Diagnosis_or_Pathology>hypertensive Herzkrankheit</Diagnosis_or_Pathology>.
+Weitere <Therapeutic>Therapien</Therapeutic> und <Therapeutic>Behandlungsvorschläge</Therapeutic>:
+<Diagnostic>Diagnose</Diagnostic>
+- Ein <Diagnosis_or_Pathology>0,6 cm großer, gut bis mäßig differenzierter neuroendokriner Tumor</Diagnosis_or_Pathology> wurde im Pancreaskopf nahe der Papilla duodeni festgestellt. Es gab auch <Diagnosis_or_Pathology>mehrfache ductale papilläre Hyperplasien (pancreatische intraepitheliale Neoplasie 1B/PANIN 1B)</Diagnosis_or_Pathology> im mittleren Verlauf des Pancreaskopfes. Im Übrigen war das <Other_Finding>exokrine und endokrine Parenchym regelrecht differenziert</Other_Finding>. Eine <Diagnosis_or_Pathology>geringgradige chronische fibrosierende, mäßig hyperplastische Cholecystitis</Diagnosis_or_Pathology> mit geringgradiger Cholesteatose der Gallenblasenschleimhaut ohne Malignität wurde ebenfalls festgestellt.
+Die Einnahme von <Clinical_Drug>Pantoloc 40mg 1-0-0</Clinical_Drug> wurde verordnet.
+
+<Anatomy>Herz</Anatomy>
+- Eine <Other_Finding>postoperative</Other_Finding> <Diagnostic>Nachsorge</Diagnostic> ist bei <Other_Finding>Diabetes mellitus</Other_Finding> besonders wichtig.
+- Der <Therapeutic>Chirurg</Therapeutic> empfiehlt eine <Therapeutic>operative Entfernung</Therapeutic> des <Other_Finding>Tumors</Other_Finding>.
+- Die <Diagnostic>Blutuntersuchung</Diagnostic> ergab <Other_Finding>erhöhte Leberwerte</Other_Finding>.
+- Der <Therapeutic>Physiotherapeut</Therapeutic> empfiehlt eine <Therapeutic>manuelle Therapie</Therapeutic> bei <Other_Finding>Rückenschmerzen</Other_Finding>.
+- Die <Diagnostic>MRT-Untersuchung</Diagnostic> zeigte <Other_Finding>eine Verletzung des Meniskus</Other_Finding>.
+- Der <Therapeutic>Arzt</Therapeutic> verschrieb <Therapeutic>antibakterielle Medikamente</Therapeutic> zur <Other_Finding>Behandlung der Infektion</Other_Finding>.
+- Die <Diagnostic>Ultraschalluntersuchung</Diagnostic> ergab <Other_Finding>eine Schwangerschaft</Other_Finding> im dritten Monat.
+- Der <Therapeutic>Zahnarzt</Therapeutic> empfiehlt eine <Therapeutic>professionelle Zahnreinigung</Therapeutic> zur <Other_Finding>Prophylaxe von Karies</Other_Finding>.
+Nach Maßgabe der Gefäßchirurgie erfolgte das <Therapeutic>Tragen der Kompressionswäsche</Therapeutic> wie besprochen.
+<Other_Finding>Freie Kopfbeweglichkeit</Other_Finding>, keine <Diagnosis_or_Pathology>Anzeichen von Meningismus</Diagnosis_or_Pathology>. Hirnnerven: <Other_Finding>Isokore Pupillen</Other_Finding>, <Other_Finding>Prompte Reaktion auf Licht, regelmäßig</Other_Finding>, <Other_Finding>Beweglichkeit des Augapfels</Other_Finding>.
+Sehr geehrte Kolleginnen und Kollegen, wir berichten Ihnen abschließend über unsere gemeinsame Patientin Frauke Weber (* 2.2.1964), die sich vom 31.3.2020 bis zum 9.4.2020 in unserer <Therapeutic>intensivmedizinischen Behandlung</Therapeutic> befand.
+<Diagnostic>Die Untersuchung</Diagnostic> wurde durch Priv.Doz. Dr.in Mersiha Kasupovic-Braun durchgeführt.
+Nach einer <Therapeutic>Optimierung der Antibiotikatherapie</Therapeutic> konnte der oben genannte <Therapeutic>Eingriff am 27.3.23 in <Other_Finding>komplikationsloser intraoperativer Phase</Other_Finding> durchgeführt</Therapeutic> werden. Der <Diagnosis_or_Pathology>postoperative Verlauf gestaltete sich sehr schwierig und zog sich in die Länge</Diagnosis_or_Pathology>. Erst am 7. postoperativen Tag konnten wir Frau Jadassohn nach <Other_Finding>kardiorespiratorischer Stabilisierung</Other_Finding> von unserer Intensivstation I03 auf die Normalstation übernehmen. Die <Therapeutic>eingesetzten Drainagen konnten zeitgerecht entfernt werden</Therapeutic>. Es zeigten sich zu jeder Zeit <Other_Finding>unauffällige Wundverhältnisse</Other_Finding>. Da die Patientin im Verlauf <Diagnosis_or_Pathology>deutliche Beschwerden im Oberbauch</Diagnosis_or_Pathology> und <Diagnosis_or_Pathology>rezidivierende Übelkeit</Diagnosis_or_Pathology> entwickelte, nahmen wir den <Therapeutic>Kostaufbau</Therapeutic> zurück und <Diagnostic>führten am 10.4.23 eine obere Magen-Darm-Endoskopie</Diagnostic> <Diagnostic>durch</Diagnostic>.
+<Other_Finding>Pulmonale Seitendifferenz</Other_Finding> in der Belüftung mit atemverschieblichem <Other_Finding>Klopfschall</Other_Finding> und <Other_Finding>vesikulärem Atemgeräusch</Other_Finding>. Es sind keine <Diagnosis_or_Pathology>Nebengeräusche</Diagnosis_or_Pathology> vorhanden.
+Das <Diagnosis_or_Pathology>Spindelzellige Rhabdomyosarkom vom Erwachsenentyp</Diagnosis_or_Pathology> und die <Diagnosis_or_Pathology>ED 09/24 im linken Os pubis</Diagnosis_or_Pathology> (<Diagnosis_or_Pathology>lytisch-destruktive Veränderung ohne sichtbare RF</Diagnosis_or_Pathology>, <Diagnostic>Biopsie</Diagnostic>) wurden diagnostiziert. Es wurde auch eine <Diagnosis_or_Pathology>regionale IX-Metastase</Diagnosis_or_Pathology> (<Diagnostic>PET-CT</Diagnostic>) und ein <Diagnosis_or_Pathology>PET pos. Herd Wirbelbogen Th 10</Diagnosis_or_Pathology> festgestellt.
+<Diagnostic>Diagnostik einer pulmonalen Embolie</Diagnostic> (5. März 2063)
+<Other_Finding>Der TSH-Wert</Other_Finding> liegt im Normbereich.
+<Diagnosis_or_Pathology>Bekannte Blindheit aufgrund einer Makuladegeneration beidseitig.</Diagnosis_or_Pathology>
+<External_Substance>Der Konsum von Nikotin</External_Substance> betrug vor Einweisung 7-8 Packungen / Tag und während des Aufenthalts ca. 12-13 Schachteln / Tag.
+Eine <Other_Finding>euthyreote Stoffwechsellage</Other_Finding> unter <Therapeutic>Hormonsubstitution</Therapeutic>.
+Zur weiteren <Diagnostic>Diagnostik</Diagnostic> und <Therapeutic>Therapie</Therapeutic> nahmen wir die Patientin daher am 21.3.23 stationär auf. Initial erfolgte die <Diagnostic>Komplettierung</Diagnostic> der <Diagnostic>OP-Vorbereitung</Diagnostic> wie folgt:
+Die Stadt <Diagnosis_or_Pathology>p N+MX</Diagnosis_or_Pathology> <Diagnosis_or_Pathology>G2</Diagnosis_or_Pathology> wurde evakuiert.
+In der Ambulanz für <Diagnostic>Melanomnachsorge</Diagnostic> wurde ein <Other_Finding>Befund</Other_Finding> festgestellt.
+<External_Substance>Alkohol</External_Substance>: Seit Winter 2023 besteht eine <Other_Finding>Abstinenz</Other_Finding>, vorher wurde ein <Diagnosis_or_Pathology>regelmäßiger täglicher Konsum von ca. <External_Substance>6 Wodka</External_Substance> pro Tag</Diagnosis_or_Pathology> festgestellt.
+<Diagnosis_or_Pathology>Diagnosestellung</Diagnosis_or_Pathology>
+
+<Medication>Medikament</Medication>
+<Medication>Medikation</Medication>
+
+<Symptom>Symptom</Symptom>
+<Symptom>Symptomatik</Symptom>
+
+<Treatment>Behandlung</Treatment>
+<Treatment>Therapie</Treatment>
+
+<Procedure>Eingriff</Procedure>
+<Procedure>Prozedur</Procedure>
+
+<Anatomy>Anatomie</Anatomy>
+<Anatomy>Körperstruktur</Anatomy>
+Eine <Diagnosis_or_Pathology>zunehmende Depression kombiniert mit Aggression</Diagnosis_or_Pathology>.
+<Other_Finding>Der Blutdruck</Other_Finding> beträgt 145/85 mmHg.
+Die <Diagnostic>Anamnese</Diagnostic> des Patienten zeigt, dass er am 30.11.2033 nach einer Drehung des Kopfes plötzlich einen stumpfen Schmerz li. temporoparietal verspürte, anschließend verschwommenes Sehen, jedoch ohne augenärztlichen Fachbefund. Anschließend traten Wortfindungsstörungen auf. Die Schmerzen hielten insgesamt mehrere Tage an und klangen erst allmählich wieder ab, eine Nackensteife habe nicht bestanden. Bereits vor etwa 2 Jahren hatte er vorübergehend Doppelbilder und gelegentlich kurzzeitigen Schwindel bei Kopfdrehbewegungen. Als Risikofaktoren sind eine Hyperurikämie, ein Hypertonus sowie eine geringfügige Erhöhung der Triglyzeride bei normalem Serumcholesterin bekannt.
+Die <Other_Finding>Zusammenfassung des Befunds</Other_Finding> war sehr ausführlich.
+Der Patient leidet an einem <Diagnosis_or_Pathology>neuroendokrinen Tumor des Pankreaskopfes</Diagnosis_or_Pathology>.
+Angesichts der <Diagnosis_or_Pathology>bestehenden Unterschenkelödeme bei Varicosis und Herzinsuffizienz</Diagnosis_or_Pathology> <Therapeutic>verordneten wir Antiemboliestrümpfe</Therapeutic>. Eine <Therapeutic>Modifikation</Therapeutic> der antihypertensiven Medikation war bei <Other_Finding>unauffälligen Blutdruckwerten</Other_Finding> nicht notwendig. <Other_Finding>Zwischenzeitlich aufgetretene Schmerzen im Bereich der Sehnen des Chiasma tendinum crurale behandelten wir erfolgreich mit <Therapeutic>Diclofenac-Salbenverbänden</Therapeutic> (<Clinical_Drug>Voltaren Emulgel</Clinical_Drug>).
+Es ergaben sich im intra- und postoperativen Verlauf keine <Diagnosis_or_Pathology>Komplikationen</Diagnosis_or_Pathology>. Das <Therapeutic>Reddon</Therapeutic> konnte nach <Other_Finding>anfänglicher Sekretion</Other_Finding> unter <Therapeutic>Kompressionsbehandlung</Therapeutic> entfernt werden. Die <Diagnosis_or_Pathology>Wunde</Diagnosis_or_Pathology> heilte primär. Die <Therapeutic>KG-Mobilisierung</Therapeutic> erfolgte beschwerdeadaptiert (0-10-60). Eine <Therapeutic>Effnerschiene</Therapeutic> wurde postoperativ angepasst.
+Ein sehr großer, echoarmer, tumoröser Schwanz, der in den Milzhilus hineinbricht.
+Sollte sich Ihr <Diagnosis_or_Pathology>Gesundheitszustand</Diagnosis_or_Pathology> verschlechtern, suchen Sie bitte so rasch wie möglich wieder die <Medical_specialty>Ambulanz für Orthopädie und Traumatologie</Medical_specialty> auf.
+Stat. Aufnahme unter dem <Diagnosis_or_Pathology>klinischen Bild einer Humeruskopffraktur nach Sturz</Diagnosis_or_Pathology>. 
+
+Substantiviert: Stat. Aufnahme unter dem <Diagnosis_or_Pathology>klinischen Bild einer Humeruskopffraktur nach Sturz</Diagnosis_or_Pathology>.
+<Diagnosis_or_Pathology>Geringgradige reduzierte Allgemeinzustand</Diagnosis_or_Pathology> bei <Diagnosis_or_Pathology>seit 2 Tagen zunehmender Dyspnoe</Diagnosis_or_Pathology>, <Diagnosis_or_Pathology>adipöser Einzelpatient (171 cm / 90 kg)</Diagnosis_or_Pathology>, <Diagnosis_or_Pathology>reduzierter Turgor</Diagnosis_or_Pathology>, <Diagnosis_or_Pathology>Trockene Schleimhäute</Diagnosis_or_Pathology>, <Other_Finding>Kopf/Hals ohne Befund</Other_Finding>
+Soweit erhebbar am Aufnahmetag eine <Diagnosis_or_Pathology>Schwäche im rechten Arm</Diagnosis_or_Pathology> zwischen 07:00 u. 08:00 Uhr aufgetreten. Eine <Diagnostic>Fremdanamnese</Diagnostic> dazu ist nicht erhebbar.
+Die <Clinical_Drug>Combigan Augentropfen 2 x täglich</Clinical_Drug> wurden verordnet.
+Ein <Therapeutic>erneuter Versuch</Therapeutic> mit dieser <Therapeutic>Therapiekombination</Therapeutic> soll erfolgen.
+Die stationäre Aufnahme von Frau Damaris erfolgte zur <Therapeutic>Fortführung</Therapeutic> der <Therapeutic>palliativen Chemotherapie</Therapeutic> nach dem <Diagnostic>Folfox-Schema</Diagnostic>, <Diagnostic>3. Zyklus</Diagnostic>.
+<Diagnosis_or_Pathology>Tensionen</Diagnosis_or_Pathology>: RA max 25, min 16, im Mittel 20 mmHg, LA max 13, min 19, im Mittel 15 mmHg
+Das <Diagnosis_or_Pathology>Rektumkarzinom</Diagnosis_or_Pathology> vom <Diagnosis_or_Pathology>04/29</Diagnosis_or_Pathology> ist lokal weit fortgeschritten und hat den <Diagnosis_or_Pathology>C20</Diagnosis_or_Pathology> erreicht.
+Am 14. März 2023 wurde ein <Diagnostic>CT des Thorax mit Kontrastmittel</Diagnostic> durchgeführt.
+<Therapeutic>Die auf der Akutstation eingeleiteten Therapien</Therapeutic> wurden intensiviert, auch durch <Therapeutic>ergotherapeutische Therapien</Therapeutic> ergänzt.
+Es zeigte sich eine <Diagnosis_or_Pathology>untere Rumpf- und Extremitätenataxie</Diagnosis_or_Pathology> mit <Diagnosis_or_Pathology>hypotoner Bauchmuskulatur</Diagnosis_or_Pathology>, <Diagnosis_or_Pathology>Abnahme der reziproken Innervation der Beinmuskulatur bds</Diagnosis_or_Pathology>. Die <Diagnosis_or_Pathology>Gleichgewichtsreaktionen im Stand und Gang waren herabgesetzt</Diagnosis_or_Pathology>, bei Gehen über längere Zeit beklagte der Patient eine <Diagnosis_or_Pathology>zunehmende Fußheberschwäche links</Diagnosis_or_Pathology>. Die <Therapeutic>Krankengymnastik</Therapeutic> umfasste vor allem die <Therapeutic>Konditionierung</Therapeutic>, die <Therapeutic>Muskeldehnung</Therapeutic> und die <Therapeutic>Bewegungskoordination zur <Diagnosis_or_Pathology>Rumpfataxie</Diagnosis_or_Pathology>.
+Die Einnahme von <Clinical_Drug>Allopurinol 300 mg 1-0-0</Clinical_Drug> wurde empfohlen.
+
+<Anatomy>Herz</Anatomy>
+<Other_Finding>Regelmäßige Augendruckkontrollen</Other_Finding> fanden statt, immer im Normbereich.
+Beurteilung: Ein <Therapeutic>Wechsel</Therapeutic> der Tannenbaum Prothese (11,5 F/8cm in 7,5 F/8 cm) führte zur <Diagnosis_or_Pathology>höhergradigen Stenosierung im Bereich des Duodenum</Diagnosis_or_Pathology>. Hierdurch gelingt die Einstellung von Papille nur schwierig. Es besteht <Other_Finding>guter Abfluss der Galle</Other_Finding>. Die Patientin soll bis heute Abend <Other_Finding>nüchtern</Other_Finding> bleiben.
+<Therapeutic>Erhöhung der Sauerstoffgabe auf 80%</Therapeutic>. Kein <Diagnosis_or_Pathology>Fieber</Diagnosis_or_Pathology>, <Other_Finding>gute Ausscheidung</Other_Finding>, Pat. <Other_Finding>mit <Therapeutic>Torem-Perfusion</Therapeutic> negativ bilanziert</Other_Finding>.
+Das <Clinical_Drug>Torasemid</Clinical_Drug> wurde durch <Clinical_Drug>Torem 10 1-0-0</Clinical_Drug> ersetzt.
+Die <Clinical_Drug>Levothir c.etarn (Keppra®) 1500mg</Clinical_Drug> wurde verabreicht.
+
+<Anatomy>Herz</Anatomy> und <Anatomy>Lunge</Anatomy> waren unauffällig.
+
+<Patient>Der Patient</Patient> klagte über <Symptom>Kopfschmerzen</Symptom> und <Symptom>Übelkeit</Symptom>.
+
+<Diagnostic>MRT</Diagnostic> des <Anatomy>Gehirns</Anatomy> zeigte keine Auffälligkeiten.
+
+<Therapeutic>Physiotherapie</Therapeutic> wurde verordnet.
+
+<Organisation>Deutsche Gesellschaft für Ernährung</Organisation> empfiehlt eine ausgewogene <Therapeutic>Ernährung</Therapeutic>.
+
+<Clinical_Drug>Aspirin®</Clinical_Drug> wurde als <Therapeutic>Blutverdünner</Therapeutic> verschrieben.
+
+<Anatomy>Leber</Anatomy> und <Anatomy>Gallenblase</Anatomy> waren vergrößert.
+
+<Patient>Die Patientin</Patient> wurde aufgrund von <Diagnostic>Fieber</Diagnostic> und <Symptom>Husten</Symptom> untersucht.
+Das <Diagnostic>Laborergebnis</Diagnostic> bei Aufnahme am 3.8.2033 wurde ausgewertet.
+Die <Diagnostic>Histologie</Diagnostic> des Gewebes zeigte eine Entzündungsreaktion.
+Die <Diagnosis_or_Pathology>benigne essentielle Hypertonie</Diagnosis_or_Pathology> wurde diagnostiziert.
+
+<Drug>Paracetamol</Drug>
+<Diagnosis_or_Pathology>Pankreaskörper/Caudaregion</Diagnosis_or_Pathology> durch eine <Diagnosis_or_Pathology>große tumoröse Raumforderung</Diagnosis_or_Pathology> mit <Diagnosis_or_Pathology>Infiltration</Diagnosis_or_Pathology> des <Diagnosis_or_Pathology>Milzhilus</Diagnosis_or_Pathology> und <Diagnosis_or_Pathology>Tumormanschette</Diagnosis_or_Pathology> um den <Diagnosis_or_Pathology>Truncus coeliacus</Diagnosis_or_Pathology>. Die <Diagnosis_or_Pathology>Vena lienalis</Diagnosis_or_Pathology> ist <Diagnosis_or_Pathology>verschlossen</Diagnosis_or_Pathology>. Es besteht eine <Diagnosis_or_Pathology>hochgradige Obstruktion</Diagnosis_or_Pathology> der <Diagnosis_or_Pathology>linken Nierenvene</Diagnosis_or_Pathology> mit <Diagnosis_or_Pathology>Kontakt</Diagnosis_or_Pathology> zur <Diagnosis_or_Pathology>linken Nierenarterie</Diagnosis_or_Pathology>. Es liegt eine <Diagnosis_or_Pathology>Infiltration</Diagnosis_or_Pathology> vor.
+<Other_Finding>nachfolgende Untersuchung</Other_Finding> ergab keine Auffälligkeiten.
+Die Ergebnisse des <Diagnostic>Labor</Diagnostic>s waren unauffällig.
+
+<Therapeutic>Medikament</Therapeutic>: Das <Therapeutic>Medikament</Therapeutic> wurde erfolgreich eingesetzt.
+
+<Organ>Herz</Organ>: Das <Organ>Herz</Organ> schlägt regelmäßig.
+
+<Anatomy>Magen</Anatomy>: Der <Anatomy>Magen</Anatomy> ist leer.
+
+<Procedure>Operation</Procedure>: Die <Procedure>Operation</Procedure> verlief ohne Komplikationen.
+
+<Chemical>Insulin</Chemical>: Das <Chemical>Insulin</Chemical> senkt den Blutzuckerspiegel.
+
+<Disease>Diabetes</Disease>: Der Patient leidet an <Disease>Diabetes</Disease>.
+
+<Drug>Morphin</Drug>: Das <Drug>Morphin</Drug> wird zur Schmerzlinderung eingesetzt.
+
+<Organism>Bakterien</Organism>: Die Infektion wurde durch <Organism>Bakterien</Organism> verursacht.
+25.03.2029: Die <Therapeutic>Revision</Therapeutic> wurde erfolgreich durchgeführt.
+Die <Other_Finding>Normalwerte</Other_Finding> der serologischen Parameter wurden festgestellt.
+Am 29.07.2027 erfolgte aufgrund der <Diagnosis_or_Pathology>Atembeschwerden</Diagnosis_or_Pathology> die Transferierung des Patienten in <Other_Finding>stabilem Allgemeinzustand</Other_Finding> an die <Medical_specialty>Pulmonologie</Medical_specialty>.
+<Other_Finding>Histopathologischer Befund des <Therapeutic>OP-Präparats</Therapeutic>:</Other_Finding>
+<Diagnosis_or_Pathology>Pathologisch erhöhte</Diagnosis_or_Pathology> Werte: Kalium 5,1, Krea 1,21, NT-proBNP 125.
+Die <Clinical_Drug>Anwendung von Lasix 40mg ½-0-0</Clinical_Drug> wurde empfohlen.
+
+<Anatomy>Herz</Anatomy> und <Anatomy>Lunge</Anatomy> waren unauffällig.
+
+<Patient>Der Patient</Patient> klagte über <Symptom>Kopfschmerzen</Symptom> und <Symptom>Übelkeit</Symptom>.
+
+<Diagnostic>Blutbild</Diagnostic> und <Diagnostic>Urinstix</Diagnostic> waren in Ordnung.
+
+<Therapeutic>Physiotherapie</Therapeutic> wurde verordnet.
+<Diagnostic>Die Laboruntersuchung</Diagnostic> findet am 2.9.2024 statt.
+
+<Therapeutic>Medikament</Therapeutic> : Der Arzt verschrieb ein <Therapeutic>Medikament</Therapeutic> gegen die Schmerzen.
+
+<Anatomy>Herz</Anatomy> : Das <Anatomy>Herz</Anatomy> ist ein lebenswichtiges Organ.
+
+<Procedure>Operation</Procedure> : Die <Procedure>Operation</Procedure> verlief erfolgreich.
+
+<Medication>Dosierung</Medication> : Die <Medication>Dosierung</Medication> des Medikaments muss angepasst werden.
+
+<Organism>Bakterien</Organism> : Die Infektion wurde durch <Organism>Bakterien</Organism> verursacht.
+
+<Device>Blutdruckmessgerät</Device> : Der Arzt benutzte ein <Device>Blutdruckmessgerät</Device>, um den Blutdruck zu messen.
+
+<Substance>Glukose</Substance> : Der Blutzuckerspiegel wurde mit <Substance>Glukose</Substance> gemessen.
+
+<Concept>Schmerz</Concept> : Der Patient klagte über <Concept>Schmerzen</Concept>.
+
+<LivingBeing>Patient</LivingBeing> : Der <LivingBeing>Patient</LivingBeing> wurde entlassen.
+Der <Other_Finding>Befund</Other_Finding> zeigte keine Auffälligkeiten.
+
+<Medication>Medikament</Medication>:
+
+Das <Medication>Medikament</Medication> muss dreimal täglich eingenommen werden.
+
+<Procedure>Verfahren</Procedure>:
+
+Das <Procedure>Verfahren</Procedure> wird unter örtlicher Betäubung durchgeführt.
+
+<Anatomy>Anatomie</Anatomy>:
+
+Die <Anatomy>Anatomie</Anatomy> des menschlichen Körpers ist sehr komplex.
+
+<Disease>Krankheit</Disease>:
+
+Die <Disease>Krankheit</Disease> ist noch nicht heilbar.
+
+<Lab_Test>Laboruntersuchung</Lab_Test>:
+
+Die <Lab_Test>Laboruntersuchung</Lab_Test> ergab keine Auffälligkeiten.
+
+<Symptom>Symptom</Symptom>:
+
+Das <Symptom>Symptom</Symptom> kann auf verschiedene Erkrankungen hinweisen.
+
+<Organ>Organ</Organ>:
+
+Das <Organ>Organ</Organ> ist für die Verdauung zuständig.
+
+<Body_Part>Körperteil</Body_Part>:
+
+Der <Body_Part>Körperteil</Body_Part> muss operiert werden.
+In der chirurgischen Ambulanz fand eine <Diagnostic>Untersuchung</Diagnostic> statt sowie eine <Diagnostic>Diagnostik</Diagnostic> mittels PDU.
+Eine <Diagnosis_or_Pathology>Verbrennung 1. – 3. Grades</Diagnosis_or_Pathology> am <Diagnosis_or_Pathology>Kopf und Hals</Diagnosis_or_Pathology> mit einer Ausdehnung von <Diagnosis_or_Pathology>5% des Körperoberfläche</Diagnosis_or_Pathology>.
+Die <Diagnosis_or_Pathology>Diagnose</Diagnosis_or_Pathology> wurde gestellt und weitere Untersuchungen wurden empfohlen.
+Vor 2 Tagen begann Herr Xavier mit der <Therapeutic>Einnahme</Therapeutic> von <Clinical_Drug>Nifedipin</Clinical_Drug> in der Dosierung von 3 x 20 mg pro Tag.
+Eine <Diagnosis_or_Pathology>geringe Ödembildung</Diagnosis_or_Pathology> besteht beidseitig.
+<Diagnostic>Histologie</Diagnostic>: <Diagnosis_or_Pathology>Adeno-Karzinom</Diagnosis_or_Pathology>
+Das <Therapeutic>Procedere</Therapeutic> wurde mit dem Patienten besprochen und er stimmte der vorgeschlagenen Behandlung zu.
+<Diagnostic>Kontrollen</Diagnostic>: Wiedervorstellung abhängig vom <Other_Finding>histologischen Befund</Other_Finding>.
+Das <Diagnostic>kleine Blutbild</Diagnostic> vom 23.05.2034 ergab <Diagnosis_or_Pathology>eine Leukozytenzahl von 20.61 /nl</Diagnosis_or_Pathology>, <Other_Finding>eine Erythrozytenzahl von 4.15 /pl</Other_Finding>, <Other_Finding>ein Hämoglobinwert von 11.0 g/dl</Other_Finding>, <Diagnosis_or_Pathology>einen Hämatokritwert von 30.2 %</Diagnosis_or_Pathology> und <Diagnosis_or_Pathology>eine Thrombozytenzahl von 233 /nl</Diagnosis_or_Pathology>.
+<Diagnostic>Histologie</Diagnostic>: <Diagnosis_or_Pathology>Uterus myomatosus</Diagnosis_or_Pathology>, <Diagnosis_or_Pathology>geringgradige Endometriose</Diagnosis_or_Pathology>
+HNO-Konsil vom 27.05.2034: <Other_Finding>Der Befund</Other_Finding> und <Other_Finding>die Empfehlung</Other_Finding> sind ausstehend.
+<Clinical_Drug>Novorapid 3 Einheiten / BE</Clinical_Drug> -> <Clinical_Drug>Novorapid</Clinical_Drug> mit <Dosage>3 Einheiten / BE</Dosage>
+<Diagnosis_or_Pathology>AV-Block ersten Grades</Diagnosis_or_Pathology>
+
+- Der <Drug>Antibiotikum</Drug>-Kurs wurde erfolgreich abgeschlossen.
+ 
+Der <Drug>Antibiotika</Drug>-Kurs wurde erfolgreich abgeschlossen.
+
+- Die <Anatomy>Lunge</Anatomy> ist ein wichtiges Atmungsorgan.
+
+Die <Anatomy>Lunge</Anatomy> ist ein wichtiges Atmungsorgan.
+
+- Der <Procedure>Eingriff</Procedure> verlief ohne Komplikationen.
+
+Der <Procedure>Eingriff</Procedure> verlief ohne Komplikationen.
+
+- Die <Organism>Bakterien</Organism> wurden im Labor untersucht.
+
+Die <Organism>Bakterien</Organism> wurden im Labor untersucht.
+
+- Der <Symptom>Schmerz</Symptom> trat plötzlich auf.
+
+Der <Symptom>Schmerz</Symptom> trat plötzlich auf.
+
+- Die <Therapeutic>Physiotherapie</Therapeutic> hat positive Auswirkungen auf den Heilungsprozess.
+
+Die <Therapeutic>Physiotherapie</Therapeutic> hat positive Auswirkungen auf den Heilungsprozess.
+<Diagnosis_or_Pathology>Leukämie mit einem Wert von 11.68</Diagnosis_or_Pathology>, <Diagnosis_or_Pathology>Hämoglobin mit einem Wert von 7.8</Diagnosis_or_Pathology>, <Other_Finding>Thrombozyten mit einem Wert von 370000</Other_Finding> <Other_Finding>unauffällige Niere</Other_Finding>, <Diagnosis_or_Pathology>CRP mit einem Wert von 34.5</Diagnosis_or_Pathology>, <Other_Finding>Eiweiß mit einem Wert von 5.8</Other_Finding>,
+<Other_Finding>Intaktheit der Haut: blass</Other_Finding>
+<Other_Finding>Neurologische Untersuchung: Unauffälligkeit.</Other_Finding>
+Die <Diagnostic>Anamnese</Diagnostic> des Patienten wurde ausführlich erhoben, um mögliche Ursachen für seine Beschwerden zu identifizieren.
+
+<Therapeutic>Medikation</Therapeutic>: Der Arzt verschrieb dem Patienten eine <Therapeutic>Medikation</Therapeutic>, um seine Symptome zu lindern.
+
+<Organ>Lunge</Organ>: Die <Organ>Lunge</Organ> des Patienten wurde mittels Röntgenaufnahme untersucht.
+
+<Procedure>Operation</Procedure>: Der Patient musste sich einer <Procedure>Operation</Procedure> unterziehen, um den Tumor zu entfernen.
+
+<Drug>Antibiotikum</Drug>: Der Arzt verschrieb dem Patienten ein <Drug>Antibiotikum</Drug>, um die Infektion zu bekämpfen.
+
+<Disease>Diabetes</Disease>: Der Patient leidet an <Disease>Diabetes</Disease> und muss regelmäßig Insulin spritzen.
+
+<Symptom>Fieber</Symptom>: Der Patient klagte über <Symptom>Fieber</Symptom> und Kopfschmerzen.
+
+<BodyPart>Herz</BodyPart>: Der Arzt untersuchte das <BodyPart>Herz</BodyPart> des Patienten mittels EKG.
+
+<LabTest>Blutbild</LabTest>: Der Arzt ordnete ein <LabTest>Blutbild</LabTest> an, um den Gesundheitszustand des Patienten zu überprüfen.
+Die <Other_Finding>zielsichere Koordination</Other_Finding> des KHV bds.
+<Diagnosis_or_Pathology>Die Narbenhernie</Diagnosis_or_Pathology> trat erneut auf.
+Darüber hinaus nahm er sehr aktiv am wöchentlich stattfindenden Seminar für Patienten mit <Diagnosis_or_Pathology>Multiples Sklerose (MS)</Diagnosis_or_Pathology> teil.
+Herr Ehrenberger entscheidet sich für die <Therapeutic>Interferontherapie</Therapeutic> von einem Jahr.
+04/2023 Ein <Other_Finding>tumorfreier Sentinellymphknoten</Other_Finding> in der <Anatomy>Leiste links</Anatomy>.
+<Diagnosis_or_Pathology>Leukozytose</Diagnosis_or_Pathology> mit 23,3 Tsd/µl; <Diagnosis_or_Pathology>Erythrozytose</Diagnosis_or_Pathology> mit 4,00 Mio/µl; <Diagnosis_or_Pathology>Anämie</Diagnosis_or_Pathology> mit Hämoglobin von 10,9 g/dl und Hämatokrit von 32,0 %; <Other_Finding>MCV von 80,0 fl</Other_Finding>; <Diagnosis_or_Pathology>MCH (HbE) von 27,3 pg</Diagnosis_or_Pathology>; <Other_Finding>MCHC von 34,1 g/dl</Other_Finding>; <Other_Finding>Thrombozytose</Other_Finding> mit 428 Tsd/µl; <Diagnosis_or_Pathology>Anisozytose</Diagnosis_or_Pathology>; <Other_Finding>Quick von 81 %</Other_Finding>; <Other_Finding>Intern. norm. Ratio von 1,1</Other_Finding>; <Other_Finding>PTT von 32 sec</Other_Finding>;
+Ausführliche Aufklärung. <Therapeutic>Die Thromboseprophylaxe wird weiter wie eingeleitet bis zur <Other_Finding>seitengleichen Vollbelastung</Other_Finding> fortgesetzt.</Therapeutic> Wiedervorstellung bei Bedarf.
+Die <Diagnostic>Anamnese</Diagnostic> des Patienten wurde ausführlich erhoben, um mögliche Ursachen für seine Beschwerden zu identifizieren.
+
+<Therapeutic>Medikation</Therapeutic>: Der Arzt verschrieb dem Patienten eine <Therapeutic>Medikation</Therapeutic>, um seine Symptome zu lindern.
+
+<Organ>Lunge</Organ>: Die <Organ>Lunge</Organ> des Patienten wurde mittels Röntgenaufnahme untersucht.
+
+<Procedure>Operation</Procedure>: Der Patient musste sich einer <Procedure>Operation</Procedure> unterziehen, um den Tumor zu entfernen.
+
+<Drug>Antibiotikum</Drug>: Der Arzt verschrieb dem Patienten ein <Drug>Antibiotikum</Drug>, um die Infektion zu bekämpfen.
+
+<Disease>Diabetes</Disease>: Der Patient leidet an <Disease>Diabetes</Disease> und muss regelmäßig Insulin spritzen.
+
+<Symptom>Fieber</Symptom>: Der Patient klagte über <Symptom>Fieber</Symptom> und Kopfschmerzen.
+
+<BodyPart>Herz</BodyPart>: Der Arzt untersuchte das <BodyPart>Herz</BodyPart> des Patienten mittels EKG.
+
+<LabTest>Blutbild</LabTest>: Der Arzt ordnete ein <LabTest>Blutbild</LabTest> an, um den Gesundheitszustand des Patienten zu überprüfen.
+2/2018 Der <Diagnosis_or_Pathology>Primärtumor</Diagnosis_or_Pathology> war skapulär links (<Diagnosis_or_Pathology>TD 3,65 mm</Diagnosis_or_Pathology>, <Diagnosis_or_Pathology>T3aN0M1c</Diagnosis_or_Pathology>;HNr.:9334a/20).
+Die <Diagnostic>Familienanamnese</Diagnostic> ergab, dass zwei Kinder vorhanden sind, wobei der fünfjährige Sohn an <Diagnosis_or_Pathology>Säuglingsdermatitis</Diagnosis_or_Pathology> leidet. Es sind keine weiteren <Diagnosis_or_Pathology>Allergien, Asthma oder atopische Krankheiten in der Familie</Diagnosis_or_Pathology> bekannt.
+<Diagnosis_or_Pathology>Hauptdiagnosen</Diagnosis_or_Pathology>, <Diagnostic>ICD-10-Codes</Diagnostic>
+
+<Therapeutic>medikamentöse Therapie</Therapeutic>, <Therapeutic>Dosierung</Therapeutic> 
+<Therapeutic>medikamentöse Therapie</Therapeutic>, <Therapeutic>Dosis</Therapeutic>
+
+<Anatomy>Herz</Anatomy>, <Anatomy>Leber</Anatomy>, <Anatomy>Niere</Anatomy> 
+<Anatomy>Herz</Anatomy>, <Anatomy>Leber</Anatomy>, <Anatomy>Nieren</Anatomy>
+
+<Procedure>Operation</Procedure>, <Procedure>Anästhesie</Procedure> 
+<Procedure>Operation</Procedure>, <Procedure>Anästhesieverfahren</Procedure>
+
+<Medication>Antibiotikum</Medication>, <Medication>Dosierung</Medication> 
+<Medication>Antibiotikum</Medication>, <Medication>Dosis</Medication>
+Sonstige <Diagnostic>Untersuchungen</Diagnostic>, die durchgeführt wurden:
+
+Der <Therapeutic>Chirurg</Therapeutic> führte eine <Diagnostic>Untersuchung</Diagnostic> durch, um die <Anatomy>Verletzung</Anatomy> zu lokalisieren.
+
+Die <Therapeutic>Behandlung</Therapeutic> umfasste eine <Diagnostic>Blutuntersuchung</Diagnostic>, um den <Physiology>Blutzuckerspiegel</Physiology> zu überprüfen.
+
+Die <Therapeutic>Therapie</Therapeutic> beinhaltete eine <Diagnostic>Ultraschalluntersuchung</Diagnostic>, um die <Anatomy>Organe</Anatomy> zu untersuchen.
+
+Die <Therapeutic>Medikamente</Therapeutic> wurden aufgrund einer <Diagnostic>Labortest</Diagnostic> verschrieben, um die <Physiology>Cholesterinwerte</Physiology> zu überprüfen.
+Die Einnahme von <Clinical_Drug>Amlodipin 5 mg 1–0–1</Clinical_Drug> wurde empfohlen.
+
+<Anatomy>Herz</Anatomy> und <Anatomy>Lunge</Anatomy>
+<Diagnosis_or_Pathology>Diagnosen</Diagnosis_or_Pathology>
+
+<Drug>ANTIBIOTIKA</Drug>
+<Drug>Antibiotika</Drug>
+
+<Anatomy>KOPFSCHMERZEN</Anatomy>
+<Anatomy>Kopfschmerzen</Anatomy>
+
+<Procedure>OPERATIONEN</Procedure>
+<Procedure>Operationen</Procedure>
+
+<Organization>UNICEF</Organization>
+<Organization>UNICEF</Organization>
+
+<Medical_specialty>KARDIOLOGIE</Medical_specialty>
+<Medical_specialty>Kardiologie</Medical_specialty>
+Es liegt eine externe <Diagnostic>Voruntersuchung mittels PET-CT</Diagnostic> vom 16.09.2024 zum Vergleich vor. Sagittal ist die <Anatomy>Wirbelsäule</Anatomy> abgebildet von BWK 1 bis LWK 1. Die <Other_Finding>Wirbelkörper</Other_Finding> stellen sich normal hoch dar. Keine <Diagnosis_or_Pathology>Wirbelkörpersinterungen</Diagnosis_or_Pathology>. <Other_Finding>Normale Höhe der Intervertebralräume</Other_Finding>. Kein <Diagnosis_or_Pathology>Bandscheibenprolaps</Diagnosis_or_Pathology>.
+Atmung mit <Therapeutic>OptiFlow</Therapeutic>, hierunter peripher.
+<Diagnostic>Diagnostisch</Diagnostic> handelt es sich damit am ehesten um eine <Diagnosis_or_Pathology>emotionale instabile Persönlichkeitsstörung vom Borderline-Typus</Diagnosis_or_Pathology>, wobei die <Diagnosis_or_Pathology>Symptomatik</Diagnosis_or_Pathology> natürlich auch Ausdruck eines <Diagnosis_or_Pathology>Prodromalstadiums einer psychotischen Erkrankung</Diagnosis_or_Pathology> sein könnte, für die bisher allerdings keine eindeutigen Anhaltspunkte vorliegen.
+Die Patientin wurde vom 20.3.2029 bis zum 27.3.2029 zunächst einer <Diagnostic>Kontrolle</Diagnostic> unterzogen und im weiteren Verlauf unter <Therapeutic>reduzierter Analgosedierung</Therapeutic> <Therapeutic>augmentierter, maschineller Beatmung</Therapeutic>. Bei <Diagnosis_or_Pathology>Flüssigkeitseinlagerungen pulmonal und peripher</Diagnosis_or_Pathology> unter der <Therapeutic>Flüssigkeitstherapie nach Baxter-Parkland Formel</Therapeutic> <Therapeutic>induzierten wir eine forcierte Diurese mit <Clinical_Drug>Furosemid</Clinical_Drug></Therapeutic>. Hierunter war die <Other_Finding>Oxygenierung im Verlauf suffizient</Other_Finding>. Die <Therapeutic>Entwöhnung vom Respirator</Therapeutic> gelang problemlos. Frau Albers konnte am 27.3.2029 bei <Other_Finding>intakten Schutzreflexen</Other_Finding> <Therapeutic>extubiert</Therapeutic> werden. Seitdem imponiert eine <Other_Finding>suffiziente Spontanatmung</Other_Finding> mit einer <Other_Finding>peripheren Sauerstoffsättigung von 98% unter Raumluft</Other_Finding>.
+<Therapeutic>Die empfohlene Therapie</Therapeutic>
+
+<Diagnostic>Diagnose</Diagnostic> gestellt
+<Diagnostic>Die Diagnose</Diagnostic> wurde gestellt
+
+<Drug>Medikament</Drug> verschrieben
+<Drug>Das verschriebene Medikament</Drug>
+
+<Anatomy>Herz</Anatomy> schlägt
+<Anatomy>Der Herzschlag</Anatomy>
+
+<Procedure>Operation</Procedure> durchgeführt
+<Procedure>Die durchgeführte Operation</Procedure>
+
+<Organization>Organisation</Organization> gegründet
+<Organization>Die gegründete Organisation</Organization>
+
+<Person>Arzt</Person> untersucht
+<Person>Der untersuchende Arzt</Person>
+<Therapeutic>Pseudoneoadjuvante Chemotherapie mit Folfox</Therapeutic> (07/63-12/63); <Diagnostic>Magnetresonanztomographie nach 6 Zyklen</Diagnostic>;
+Das <Diagnostic>Drogenscreening</Diagnostic> ergab, dass <Other_Finding>Benzodiazepine, Barbiturate, Amphetamine, Opiate, Kokain und Cannabinoide nicht nachweisbar</Other_Finding> sind.
+Sie berichtet über  starke Schmerzen beim Sitzen.
+Die <Clinical_Drug>Suprarenin</Clinical_Drug>-Dosis betrug 0,081μg/kg/min und es wurden 4,0ml/h (5mg in 50ml fertig gelöst) verabreicht.
+Die <Diagnostic>Sozialanamnese</Diagnostic> ergab, dass die Person <Other_Finding>verheiratet</Other_Finding> ist und Pharmazie studiert. In der <Diagnostic>Familienanamnese</Diagnostic> wurde bekannt, dass die Großmutter an einem <Diagnosis_or_Pathology>gynäkologischen Tumor</Diagnosis_or_Pathology> erkrankt war (nicht weiter bekannt).
+Ambulante Wiedervorstellung in der Hochschulambulanz in 2 Wochen. (Terminvereinbarung unter 5110-2882). <Diagnostic>Kontrolle des <Other_Finding>Blutzucker-Wertes</Other_Finding></Diagnostic>.
+Die <Other_Finding>orientierende neurologische Untersuchung</Other_Finding> war unauffällig.
+<Diagnosis_or_Pathology>Mundrachenrötung</Diagnosis_or_Pathology>: mäßig ausgeprägt
+<Other_Finding>Euthyreose</Other_Finding> wurde mit einer <Therapeutic>Substitutionstherapie</Therapeutic> behandelt.
+E-Nr.: 37844677 Patho Universitätsklinikum Klagenfurt: Der Sentinel Node in der linken Leiste zeigte ein <Other_Finding>tumoröses Wachstum</Other_Finding>.
+Die Einnahme von <Clinical_Drug>Molaxole</Clinical_Drug> 2 x 1 Beutel wurde empfohlen.
+Die <Clinical_Drug>Anwendung</Clinical_Drug> von Meronem - 1g Bolus in 100ml NaCl 0,9% wurde durchgeführt.
+<Diagnosis_or_Pathology>Diagnose</Diagnosis_or_Pathology>: Eine <Diagnosis_or_Pathology>Wachstumsstörung</Diagnosis_or_Pathology> nach <Therapeutic>Emmertplastik</Therapeutic>.
+<Clinical_Drug>Pantozol - 40mg KI in 100ml NaCl 0,9%</Clinical_Drug> wurde verabreicht.
+Die <Diagnostic>digitale Aufnahmetechnik</Diagnostic> ermöglicht eine präzise Darstellung von Gewebestrukturen.
+
+<Therapeutic>Antibiotische Behandlung</Therapeutic>
+Eine <Therapeutic>antibiotische Behandlung</Therapeutic> kann bei bakteriellen Infektionen helfen.
+
+<Organ>Herz</Organ>
+Das <Organ>Herz</Organ> pumpt das Blut durch den Körper.
+
+<Drug>Paracetamol</Drug>
+<Drug>Paracetamol</Drug> kann bei leichten Schmerzen und Fieber eingesetzt werden.
+
+<Procedure>Operation</Procedure>
+Eine <Procedure>Operation</Procedure> kann bei bestimmten Erkrankungen notwendig sein.
+
+<Disease>Diabetes</Disease>
+<Disease>Diabetes</Disease> ist eine Stoffwechselerkrankung, die den Blutzuckerspiegel beeinflusst.
+
+<Anatomy>Gehirn</Anatomy>
+Das <Anatomy>Gehirn</Anatomy> ist das zentrale Steuerungsorgan des Körpers.
+
+<Symptom>Fieber</Symptom>
+<Fieber>Symptom</Fieber> kann auf eine Infektion hinweisen.
+<Diagnosis_or_Pathology>Das NINS Stadium III</Diagnosis_or_Pathology> 
+
+<Drug>Paracetamol</Drug> und <Drug>Ibuprofen</Drug> wurden verabreicht.
+Die <Diagnostic>CT-Untersuchung des Oberbauchs</Diagnostic> wurde durchgeführt. 
+
+<Therapeutic>ANTIBIOTIKA</Therapeutic>: Der Patient erhielt <Therapeutic>Antibiotika</Therapeutic>. 
+
+<Diagnostic>BLUTDRUCKMESSUNG</Diagnostic>: Eine <Diagnostic>Blutdruckmessung</Diagnostic> wurde durchgeführt. 
+
+<Therapeutic>OPERATION</Therapeutic>: Der Patient benötigt eine <Therapeutic>Operation</Therapeutic>. 
+
+<Diagnostic>ULTRASCHALLUNTERSUCHUNG</Diagnostic>: Eine <Diagnostic>Ultraschalluntersuchung</Diagnostic> wurde durchgeführt. 
+
+<Therapeutic>PHYSIOTHERAPIE</Therapeutic>: Der Patient benötigt <Therapeutic>Physiotherapie</Therapeutic>. 
+
+<Diagnostic>LABORUNTERSUCHUNG</Diagnostic>: Eine <Diagnostic>Laboruntersuchung</Diagnostic> wurde durchgeführt. 
+
+<Therapeutic>INTRAVENÖSE THERAPIE</Therapeutic>: Der Patient erhielt eine <Therapeutic>intravenöse Therapie</Therapeutic>. 
+
+<Diagnostic>RÖNTGENUNTERSUCHUNG</Diagnostic>: Eine <Diagnostic>Röntgenuntersuchung</Diagnostic> wurde durchgeführt. 
+
+<Therapeutic>MEDIKAMENTÖSE THERAPIE</Therapeutic>: Der Patient benötigt eine <Therapeutic>medikamentöse Therapie</Therapeutic>.
+<Therapeutic>Die empfohlene Therapie</Therapeutic>
+
+<Diagnostic>Diagnose</Diagnostic> stellen
+<Therapeutic>Die Prämedikation</Therapeutic> bestand aus <Clinical_Drug>400 mg Propofol frakt.</Clinical_Drug> <Diagnostic>Pulsoxymetrie</Diagnostic> und <Diagnostic>Monitoring nach DGVS</Diagnostic>.
+Der Pat. stellte sich am 05.11.51 mit dem <Diagnosis_or_Pathology>Bild einer hepatischen Encephalopathie Grad I - II</Diagnosis_or_Pathology> sowie <Diagnosis_or_Pathology>prallem Aszites</Diagnosis_or_Pathology> bei <Diagnosis_or_Pathology>erneuter Dekompensation einer vorbekannten kryptogenen Leberzirrhose, im Child-Stadium C</Diagnosis_or_Pathology>, in unserer Notaufnahme vor. Bei fehlendem <Other_Finding>klinischen sowie anamnestischen Hinweis auf eine auslösende Ursache</Other_Finding> und <Diagnostic>Ausschluß einer <Diagnosis_or_Pathology>signifikanten TIPS-Dysfunktion</Diagnostic></Diagnostic> sind als <Diagnosis_or_Pathology>mögliche Auslöser der Dekompensation</Diagnosis_or_Pathology> zu diskutieren:
+Der <Other_Finding>Entlassungsbefund</Other_Finding> wurde dem Patienten ausgehändigt.
+Die <Therapeutic>mitgebrachten Hilfsmittel</Therapeutic> wurden vom Patienten vorgezeigt und überprüft.
+P: <Diagnosis_or_Pathology>Beidseitig basal abgeschwächtes Atemgeräusch links rechts</Diagnosis_or_Pathology>, keine <Diagnosis_or_Pathology>feuchten Geräusche</Diagnosis_or_Pathology>.
+Die <Diagnosis_or_Pathology>chronische Niereninsuffizienz ieL</Diagnosis_or_Pathology> und die <Diagnosis_or_Pathology>diabetische Nephropathie</Diagnosis_or_Pathology> führten zur Diagnose <Diagnosis_or_Pathology>N18.8</Diagnosis_or_Pathology>.
+Die Einnahme von <Clinical_Drug>Mexalen 500mg 3 x 1</Clinical_Drug> wurde empfohlen.
+
+<Anatomy>Herz</Anatomy>-<Anatomy>Kreislaufsystem</Anatomy>
+Das <Anatomy>Herz</Anatomy> ist ein wichtiger Bestandteil des <Anatomy>Kreislaufsystems</Anatomy>.
+
+<Diagnostic>Blutbild</Diagnostic>
+Ein <Diagnostic>Blutbild</Diagnostic> kann Aufschluss über den Gesundheitszustand geben.
+
+<Therapeutic>Physiotherapie</Therapeutic>
+Eine <Therapeutic>Physiotherapie</Therapeutic> kann bei der Rehabilitation helfen.
+
+<Organisation>Deutsche Krebshilfe</Organisation>
+Die <Organisation>Deutsche Krebshilfe</Organisation> unterstützt Betroffene und ihre Familien.
+Es konnte kein <Diagnostic>CT mit Kontrastmittel</Diagnostic> durchgeführt werden.
+Eine weitere mögliche Ursache für die <Diagnosis_or_Pathology>Marklagerläsionen</Diagnosis_or_Pathology> wäre ein <Diagnosis_or_Pathology>arterieller Hypertonus</Diagnosis_or_Pathology>, die Pat. berichtet, dass bei <Diagnostic>regelmäßigen Blutdruckkontrollen</Diagnostic> <Other_Finding>normotone <Diagnostic>Werte</Diagnostic> gemessen werden (120/80</Other_Finding>). Trotzdem empfehlen wir weitere <Diagnostic>regelmäßige RR-Kontrollen</Diagnostic>.
+Eine <Diagnosis_or_Pathology>leichte Restriktion</Diagnosis_or_Pathology>, keine <Diagnosis_or_Pathology>Obstruktion</Diagnosis_or_Pathology>. Die <Other_Finding>Diffusionskapazität</Other_Finding> ist normal und auch die <Other_Finding>BGA</Other_Finding> ist normal.
+Die <Diagnosis_or_Pathology>Haupt- und Nebendiagnosen</Diagnosis_or_Pathology>
+<Diagnostic>Die LWS in zwei Ebenen</Diagnostic> vom 04.11.2028 ergab eine <Diagnosis_or_Pathology>linkskonvexe Skoliose und Steilfehlhaltung</Diagnosis_or_Pathology>, <Diagnosis_or_Pathology>massive Spondylarthrosen</Diagnosis_or_Pathology>, eine <Diagnosis_or_Pathology>Deckplattenimpression an L1 und L5</Diagnosis_or_Pathology>, eine <Diagnosis_or_Pathology>Fischwirbelbildung an L2 und L3</Diagnosis_or_Pathology> sowie <Diagnosis_or_Pathology>Weichteilverkalkungen links paravertebral</Diagnosis_or_Pathology>.
+Schlaf: <Diagnosis_or_Pathology>Durchschlafstörung</Diagnosis_or_Pathology>. <Diagnosis_or_Pathology>Stimmung: dysthyme Störung.</Diagnosis_or_Pathology>
+Beurteilung, <Therapeutic>Therapie</Therapeutic> und <Therapeutic>Verlauf</Therapeutic>:
+<Diagnosis_or_Pathology>Faustschluss rechts im Bereich des Kniegelenks 3/5 - proximale Muskulatur des Kniegelenks 3/5</Diagnosis_or_Pathology>, <Other_Finding>Muskeltonus- und Reflexprüfung im Bereich der oberen Extremität rechtsbetont lebhaft</Other_Finding>, <Diagnosis_or_Pathology>Pathologischer Spontan- und Auslöse-Reflex beidseitig fehlend</Diagnosis_or_Pathology>, <Diagnosis_or_Pathology>Positiver Babinski-Reflex rechts</Diagnosis_or_Pathology>, <Diagnosis_or_Pathology>Linksseitiger Rigor und Tremor</Diagnosis_or_Pathology>
+Wird die Indikation zur <Therapeutic>notfallmäßigen Laparotomie</Therapeutic> gestellt und der Patient wird am 4.11.2064 in <Other_Finding>ungestörter AN</Other_Finding> bei <Diagnosis_or_Pathology>ASA 3</Diagnosis_or_Pathology> <Other_Finding>komplikationslos operiert</Other_Finding>. Danach erfolgt der Transfer auf die Intensivstation sowie am 18.11.64 die Rückübernahme auf unsere Normalstation. Im <Other_Finding>histopathologischen Befund des <Therapeutic>OP-Präparats</Therapeutic> zeigt ein <Diagnosis_or_Pathology>niedrig differenziertes invasives Adenokarzinom des Colon sigm. mit Infiltration des mesocolischen Fettgewebes, Blut- und Lymphgefäßeinbrüchen sowie mit Metastasen des Adenokarzinoms in 7 von insgesamt 14 Lymphknoten</Diagnosis_or_Pathology>.
+Eine <Diagnosis_or_Pathology>Respiratorische Insuffizienz</Diagnosis_or_Pathology> bei Pleuraergüssen beidseitig.
+Das <Clinical_Drug>Citalopram</Clinical_Drug> wurde durch <Clinical_Drug>Cipramil 20 1-1/2-0</Clinical_Drug> ersetzt.
+<Diagnosis_or_Pathology>Diagnose</Diagnosis_or_Pathology>: Asthma bronchiale bei TypI-Allergie auf Schimmelpilze, Gräserpollen, (<Diagnosis_or_Pathology>ICD-10: J45.9</Diagnosis_or_Pathology>)
+Wir berichten über unseren Patienten Willibald Vogler, geboren am 23.2.1941, der sich vom 2. bis zum 7.10.2021 in unserer <Therapeutic>stationären Behandlung</Therapeutic> befand.
+Die Einnahme von <Clinical_Drug>Molaxole</Clinical_Drug> 2 x 1 Beutel wurde empfohlen.
+<Diagnosis_or_Pathology>Bekannte Leberzyste</Diagnosis_or_Pathology> -> Die <Diagnosis_or_Pathology>bekannte Leberzyste</Diagnosis_or_Pathology>
+Die <Diagnosis_or_Pathology>Hypothyreose bei Autoimmunthyreoiditis</Diagnosis_or_Pathology> wurde diagnostiziert.
+Perianal: Eine <Other_Finding>geringgradige Rückbildung der tumorösen Masse</Other_Finding> sowie <Diagnosis_or_Pathology>vier Fistelgänge</Diagnosis_or_Pathology> wurden festgestellt. Der Zustand hat sich <Other_Finding>klinisch deutlich verbessert</Other_Finding> und <Diagnostic>laut <Diagnosis_or_Pathology>Anamnese</Diagnosis_or_Pathology> gibt es kaum noch Sekretion</Diagnostic>.
+<Therapeutic>Die Einnahme von Antibiotika</Therapeutic> wurde empfohlen.
+
+<Diagnostic>Die Diagnose</Diagnostic> lautet auf eine akute Bronchitis.
+
+<Therapeutic>Die Therapie</Therapeutic> besteht aus Inhalationen und Hustenlösern.
+
+<Diagnostic>Die Untersuchung</Diagnostic> ergab eine Fraktur des rechten Arms.
+
+<Therapeutic>Die Behandlung</Therapeutic> umfasst eine Gipsimmobilisation.
+
+<Diagnostic>Die Laborwerte</Diagnostic> zeigen eine erhöhte Entzündungsreaktion.
+
+<Therapeutic>Die Therapie</Therapeutic> beinhaltet eine antibiotische Behandlung.
+
+<Diagnostic>Die Untersuchung</Diagnostic> mittels MRT ergab einen Bandscheibenvorfall.
+
+<Therapeutic>Die Therapie</Therapeutic> umfasst Schmerzmedikamente und Physiotherapie.
+
+<Diagnostic>Die Diagnose</Diagnostic> lautet auf eine akute Gastritis.
+
+<Therapeutic>Die Therapie</Therapeutic> besteht aus einer Schonkost und Magenschutzmedikamenten.
+<Diagnosis_or_Pathology>Juckreiz am Rücken</Diagnosis_or_Pathology> wurde mit <Clinical_Drug>GLADEM 50 MG</Clinical_Drug> behandelt.
+Die <Diagnostic>Untersuchungsindikation</Diagnostic> wurde vom Arzt gestellt und daraufhin wurde eine weitere Diagnostik durchgeführt.
+Das <Diagnosis_or_Pathology>Rezidiv</Diagnosis_or_Pathology> von intermittierendem Vorhofflimmern mit TAA trat zuletzt am 21.07.22 auf.
+<Therapeutic>Chemotherapie (Protokoll Nr.:099984-0163) mit <Clinical_Drug>Irinotecan (80mg/m2</Clinical_Drug>), <Clinical_Drug>5-FU (2000mg/ m2</Clinical_Drug>), <Clinical_Drug>Leukovorin (500mg/ m2</Clinical_Drug>) und 3 Zyklen wurde durchgeführt: 18.08.21 - 20.1.22. Seit dem 20.09.21 (2. und 3. Zyklus) wurde die Dosis um 20% reduziert aufgrund von <Diagnosis_or_Pathology>rezidivierenden Neutropenien</Diagnosis_or_Pathology>.

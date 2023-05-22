@@ -190,6 +190,8 @@ def get_simple_error_types(pred_sq_list, gt_seq_list):
               if pred_sq == gt_seq:
                 error_types.append([(pred_sq), (gt_seq), NERErrortype.TP])
                 pred_sq_list_tmp.remove(pred_sq)
+                print('remove now:')
+                print(gt_seq)
                 gt_seq_list_tmp.remove(gt_seq)
 
     for p in pred_sq_list_tmp:

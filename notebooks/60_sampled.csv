@@ -1,0 +1,239 @@
+Am 17.06.2027 wurde eine <Diagnostic>CT-Angiographie der Pulmonalgefäße</Diagnostic> durchgeführt.,<Diagnostic>CT Angiographie Pulmonalgefäße</Diagnostic> 17.06.2027 :,"{'id': 34, 'type': 'sentence', 'text': 'CT Angiographie Pulmonalgefäße 17.06.2027 :', 'offsets': [[2419, 2462]], 'document_id': 'Ypsilanti.tsv'}"
+"Der <Diagnostic>Aufnahmegrund</Diagnostic> des Patienten war eine akute Atemnot.
+
+Medikament: Der Arzt verschrieb dem Patienten ein <Therapeutic>Medikament</Therapeutic> gegen seine Schmerzen.
+
+Krankenhaus: Der Patient wurde in ein <Location>Krankenhaus</Location> eingeliefert und dort behandelt.
+
+Blutdruck: Der <Diagnostic>Blutdruck</Diagnostic> des Patienten war zu hoch und musste gesenkt werden.
+
+Operation: Der Patient musste sich einer <Therapeutic>Operation</Therapeutic> unterziehen, um seine Verletzungen zu behandeln.
+
+Allergie: Der Patient hatte eine <Diagnostic>Allergie</Diagnostic> gegen Penicillin und konnte das Medikament nicht einnehmen.
+
+Diagnose: Die <Diagnostic>Diagnose</Diagnostic> des Arztes lautete auf eine Lungenentzündung.
+
+Therapie: Der Patient erhielt eine <Therapeutic>Therapie</Therapeutic> mit Antibiotika, um seine Infektion zu behandeln.
+
+Krankheit: Der Patient litt an einer <Diagnostic>Krankheit</Diagnostic>, die seine Beweglichkeit einschränkte.
+
+Symptom: Das <Diagnostic>Symptom</Diagnostic> des Patienten war ein starker Husten.",Aufnahmegrund:,"{'id': 20, 'type': 'sentence', 'text': 'Aufnahmegrund:', 'offsets': [[647, 661]], 'document_id': 'Colon_Fake_D.tsv'}"
+"Im <Nutrient_or_Body_Substance>TS</Nutrient_or_Body_Substance> vom 01.02.2028 wurden <Diagnosis_or_Pathology>Klebsiellen</Diagnosis_or_Pathology> diagnostiziert, die gegenüber <Clinical_Drug>Piperacillin</Clinical_Drug> resistent sind, jedoch nicht gegenüber <Clinical_Drug>Tazobac</Clinical_Drug>.","* im <Nutrient_or_Body_Substance>TS</Nutrient_or_Body_Substance> vom 01.02.2028 <Diagnosis_or_Pathology>Klebsiellen</Diagnosis_or_Pathology>, die auf <Clinical_Drug>Piperacillin</Clinical_Drug> resistent sind, nicht jedoch auf <Clinical_Drug>Tazobac</Clinical_Drug>.","{'id': 46, 'type': 'sentence', 'text': '* im TS vom 01.02.2028 Klebsiellen, die auf Piperacillin resistent sind, nicht jedoch auf Tazobac.', 'offsets': [[3325, 3423]], 'document_id': 'Amanda_Alzheimer.tsv'}"
+<Therapeutic>Die medikamentöse Behandlung</Therapeutic> erfolgte <Therapeutic>mit <Clinical_Drug>Taxilan in einer Dosierung von 300 mg täglich</Clinical_Drug>.</Therapeutic>,<Therapeutic>Medikamentös</Therapeutic> wurde <Therapeutic>mit <Clinical_Drug>Taxilan in einer Dosierung von 300 mg täglich</Clinical_Drug> behandelt</Therapeutic>.,"{'id': 24, 'type': 'sentence', 'text': 'Medikamentös wurde mit Taxilan in einer Dosierung von 300 mg täglich behandelt.', 'offsets': [[4091, 4170]], 'document_id': 'Fleischmann.tsv'}"
+"<NamedEntity>Claudia Dupuytren</NamedEntity>
+
+Die Firma Apple Inc. hat gestern ein neues iPhone vorgestellt.",Claudia Dupuytren,"{'id': 5, 'type': 'sentence', 'text': 'Claudia Dupuytren', 'offsets': [[219, 236]], 'document_id': 'Dupuytren.tsv'}"
+Das <Diagnosis_or_Pathology>systemische inflammatorische Response-Syndrom [SIRS]</Diagnosis_or_Pathology> infektiöser Genese ohne Organkomplikationen wurde diagnostiziert.,<Diagnosis_or_Pathology>Systemisches inflammatorisches Response-Syndrom [SIRS] infektiöser Genes ohne Organkomplikationen</Diagnosis_or_Pathology>,"{'id': 14, 'type': 'sentence', 'text': 'Systemisches inflammatorisches Response-Syndrom [SIRS] infektiöser Genes ohne Organkomplikationen', 'offsets': [[658, 755]], 'document_id': 'Colon_Fake_K.tsv'}"
+"<Other_Finding>Leukozytenzahl 6.21</Other_Finding>, <Other_Finding>Erythrozytenzahl 4.87</Other_Finding>, <Other_Finding>Hämoglobinwert 14.1</Other_Finding>, <Diagnosis_or_Pathology>Hämatokritwert 33.5</Diagnosis_or_Pathology>, <Diagnosis_or_Pathology>mittleres Zellvolumen 72.1m</Diagnosis_or_Pathology> <Other_Finding>mittlere Hämoglobinkonzentration 29.9</Other_Finding>, <Diagnosis_or_Pathology>mittlere korpuskuläre Hämoglobinkonzentration 32.3</Diagnosis_or_Pathology>, <Other_Finding>Thrombozytenzahl 234500</Other_Finding>, <Other_Finding>mittleres Thrombozytenvolumen 8.2</Other_Finding>, <Diagnosis_or_Pathology>Natriumwert 143</Diagnosis_or_Pathology>,","<Other_Finding>Leuko 6.21</Other_Finding>, <Other_Finding>Ery 4.87</Other_Finding>, <Other_Finding>Hb 14.1</Other_Finding>, <Diagnosis_or_Pathology>Ht 33.5</Diagnosis_or_Pathology>, <Diagnosis_or_Pathology>MCV 72.1m</Diagnosis_or_Pathology> <Other_Finding>MCH 29.9</Other_Finding>, <Diagnosis_or_Pathology>MCHC 32.3</Diagnosis_or_Pathology>, <Other_Finding>Thrombo 234500</Other_Finding>, <Other_Finding>MPV 8.2</Other_Finding>, <Diagnosis_or_Pathology>Na 143</Diagnosis_or_Pathology>,","{'id': 31, 'type': 'sentence', 'text': 'Leuko 6.21, Ery 4.87, Hb 14.1, Ht 33.5, MCV 72.1m MCH 29.9, MCHC 32.3, Thrombo 234500, MPV 8.2, Na 143,', 'offsets': [[1216, 1319]], 'document_id': 'Colon_Fake_F.tsv'}"
+Die Einnahme von <Clinical_Drug>Gastrozol 20 mg 1-0-0</Clinical_Drug> wurde empfohlen.,<Clinical_Drug>Gastrozol 20 mg 1-0-0</Clinical_Drug>,"{'id': 48, 'type': 'sentence', 'text': 'Gastrozol 20 mg 1-0-0', 'offsets': [[1908, 1929]], 'document_id': 'Colon_Fake_C.tsv'}"
+Die Indikation war eine <Diagnostic>histologische Sicherung</Diagnostic> bei einem <Diagnosis_or_Pathology>großen Pankreasprozess in palliativer Situation</Diagnosis_or_Pathology>.,Indikation: <Diagnostic>Histolog. Sicherung</Diagnostic> bei <Diagnosis_or_Pathology>großem Pankreasprozess in palliativer Situation</Diagnosis_or_Pathology>,"{'id': 13, 'type': 'sentence', 'text': 'Indikation: Histolog. Sicherung bei großem Pankreasprozess in palliativer Situation', 'offsets': [[425, 508]], 'document_id': 'Tupolev_2.tsv'}"
+"Der <Diagnosis_or_Pathology>Hämoglobinwert</Diagnosis_or_Pathology> bei Entlassung betrug 10,2.","<Diagnosis_or_Pathology>Hb bei Entlassung 10,2</Diagnosis_or_Pathology>","{'id': 28, 'type': 'sentence', 'text': 'Hb bei Entlassung 10,2', 'offsets': [[1760, 1782]], 'document_id': 'Colon_Fake_B.tsv'}"
+"Im <Temporal>Verlauf</Temporal> der Erkrankung verschlechterte sich der Zustand des Patienten.
+
+Behandlung: Die <Therapeutic>Behandlung</Therapeutic> umfasste eine Kombination aus Medikamenten und Physiotherapie.
+
+Diagnose: Die <Diagnostic>Diagnose</Diagnostic> wurde durch eine Blutuntersuchung bestätigt.
+
+Symptome: Die <Signs_and_Symptoms>Symptome</Signs_and_Symptoms> des Patienten waren Fieber und Husten.
+
+Medikamente: Der Patient erhielt eine Kombination aus verschiedenen <Medication>Medikamenten</Medication>.
+
+Chirurgie: Eine <Therapeutic>Chirurgie</Therapeutic> war notwendig, um den Tumor zu entfernen.
+
+Krankenhaus: Der Patient wurde in ein <Facility>Krankenhaus</Facility> eingeliefert und auf der Intensivstation behandelt.
+
+Therapie: Die <Therapeutic>Therapie</Therapeutic> umfasste eine Kombination aus Medikamenten und Psychotherapie.
+
+Laborwerte: Die <Diagnostic>Laborwerte</Diagnostic> zeigten eine erhöhte Anzahl an weißen Blutkörperchen.
+
+Prognose: Die <Prognosis>Prognose</Prognosis> des Patienten war unklar und hing von der Wirksamkeit der Behandlung ab.",Verlauf:,"{'id': 13, 'type': 'sentence', 'text': 'Verlauf:', 'offsets': [[1177, 1185]], 'document_id': 'Weber.tsv'}"
+2. <Diagnosis_or_Pathology>Der Diabetes mellitus Typ II</Diagnosis_or_Pathology> und die <Diagnosis_or_Pathology>ED</Diagnosis_or_Pathology> im Jahr 2050,"2. <Diagnosis_or_Pathology>Diabetes mellitus Typ II</Diagnosis_or_Pathology>, <Diagnosis_or_Pathology>ED</Diagnosis_or_Pathology> 2050","{'id': 6, 'type': 'sentence', 'text': '2. Diabetes mellitus Typ II, ED 2050', 'offsets': [[306, 342]], 'document_id': 'Osler.tsv'}"
+"<Clinical_Drug>NaCl 0,9%</Clinical_Drug> wird mit einer Rate von <Clinical_Drug>9,0ml/h</Clinical_Drug> (in einer Menge von <Clinical_Drug>500ml</Clinical_Drug>) verabreicht.","<Clinical_Drug>NaCl 0,9%  - 9,0ml/h (500ml</Clinical_Drug> )","{'id': 74, 'type': 'sentence', 'text': 'NaCl 0,9%  - 9,0ml/h (500ml )', 'offsets': [[5362, 5391]], 'document_id': 'Amanda_Alzheimer.tsv'}"
+Eine <Clinical_Drug>Diflucan</Clinical_Drug>-Infusion mit einem Bolus von 400mg in 200ml fertig gelöster Lösung wurde verabreicht.,<Clinical_Drug>Diflucan  - 400mg Bolus in 200ml fertig gelöst</Clinical_Drug>,"{'id': 66, 'type': 'sentence', 'text': 'Diflucan  - 400mg Bolus in 200ml fertig gelöst', 'offsets': [[4948, 4994]], 'document_id': 'Amanda_Alzheimer.tsv'}"
+"<Diagnosis_or_Pathology>Diagnose</Diagnosis_or_Pathology>: Asthma bronchiale bei TypI-Allergie auf Schimmelpilze, Gräserpollen, (<Diagnosis_or_Pathology>ICD-10: J45.9</Diagnosis_or_Pathology>)","<Diagnosis_or_Pathology>Asthma bronchiale bei TypI-Allergie auf Schimmelpilze, Gräserpollen</Diagnosis_or_Pathology> (<Diagnosis_or_Pathology>J45.9</Diagnosis_or_Pathology>)","{'id': 12, 'type': 'sentence', 'text': 'Asthma bronchiale bei TypI-Allergie auf Schimmelpilze, Gräserpollen (J45.9)', 'offsets': [[487, 562]], 'document_id': 'Colon_Fake_C.tsv'}"
+"<Diagnostic>Regelmäßige Kontrolle der Wunde</Diagnostic> und VW jeden Tag oder jeden 2. Tag beim Hausarzt, <Diagnostic>Kontrolle der Wunde</Diagnostic> in 2 Tagen und danach in 1 Woche in unserer Ambulanz.","<Diagnostic>Regelmäßige Wundkontrollen</Diagnostic> und VW jeden Tag oder jeden 2. Tag beim Hausarzt, <Diagnostic>Wundkontrolle</Diagnostic> in 2 Tage und danach in 1 Woche in unserer Ambulanz .","{'id': 78, 'type': 'sentence', 'text': 'Regelmäßige Wundkontrollen und VW jeden Tag oder jeden 2. Tag beim Hausarzt, Wundkontrolle in 2 Tage und danach in 1 Woche in unserer Ambulanz .', 'offsets': [[9669, 9813]], 'document_id': 'Colon_Fake_J.tsv'}"
+Am 10. 03. 2043 kann Frau Korsakoff wieder auf die Normalstation verlegt werden. Sie wird <Therapeutic>mit einer zusätzlichen Ernährung durch <Clinical_Drug>Smofkabiven zentral</Clinical_Drug></Therapeutic> versorgt. Während des stat. Aufenthaltes wird die <Therapeutic>Physiotherapie</Therapeutic> des Hauses zur <Therapeutic>Mobilisierung</Therapeutic> der Patientin hinzugezogen.,Am 10. 03. 2043 kann Frau Korsakoff wieder auf die Normalstation verlegt werden. Sie wird <Therapeutic>mit <Clinical_Drug>Smofkabiven zentral</Clinical_Drug> zusätzlich ernährt</Therapeutic>. Während des stat. Aufenthaltes wird die <Therapeutic>Physiotherapie</Therapeutic> des Hauses zur <Therapeutic>Mobilisierung</Therapeutic> der Patientin hinzugezogen.,"{'id': 52, 'type': 'sentence', 'text': 'Am 10. 03. 2043 kann Frau Korsakoff wieder auf die Normalstation verlegt werden. Sie wird mit Smofkabiven zentral zusätzlich ernährt. Während des stat. Aufenthaltes wird die Physiotherapie des Hauses zur Mobilisierung der Patientin hinzugezogen.', 'offsets': [[5123, 5368]], 'document_id': 'Colon_Fake_K.tsv'}"
+Die <Diagnostic>Beurteilung</Diagnostic> des Patienten ergab keine Auffälligkeiten.,Beurteilung:,"{'id': 24, 'type': 'sentence', 'text': 'Beurteilung:', 'offsets': [[3445, 3457]], 'document_id': 'Stölzl.tsv'}"
+"Die <Location>Hochschulambulanz</Location> ist eine Einrichtung, die von der <Organization>Hochschule</Organization> betrieben wird. In der <Location>Hochschulambulanz</Location> werden Patienten von Ärzten und Pflegepersonal behandelt.",Hochschulambulanz,"{'id': 6, 'type': 'sentence', 'text': 'Hochschulambulanz', 'offsets': [[212, 229]], 'document_id': 'Weil.tsv'}"
+"<Diagnosis_or_Pathology>Pfortaderfluss</Diagnosis_or_Pathology>: 18 cm/s, <Diagnosis_or_Pathology>A.hepatica RI-Wert</Diagnosis_or_Pathology>: 0,86. <Diagnosis_or_Pathology>Reduziertes Flußsignal in VCI</Diagnosis_or_Pathology>.","<Diagnosis_or_Pathology>Pfortaderfluß: 18 cm/s</Diagnosis_or_Pathology>, <Diagnosis_or_Pathology>A.hepatica RI-Wert: 0,86</Diagnosis_or_Pathology>. <Diagnosis_or_Pathology>Reduziertes Flußsignal in VCI</Diagnosis_or_Pathology>.","{'id': 52, 'type': 'sentence', 'text': 'Pfortaderfluß: 18 cm/s, A.hepatica RI-Wert: 0,86. Reduziertes Flußsignal in VCI.', 'offsets': [[3773, 3853]], 'document_id': 'Amanda_Alzheimer.tsv'}"
+Die stationäre Aufnahme Ihrer Patientin erfolgte zur <Therapeutic>Fortführung der Chemotherapie mit <Clinical_Drug>Taxol und Carboplatin</Clinical_Drug> (4. Zyklus</Therapeutic>) bei einer <Diagnosis_or_Pathology>bekannten Grunderkrankung</Diagnosis_or_Pathology>.,Die stationäre Aufnahme Ihrer Patientin erfolgte zur <Therapeutic>Fortführung der Chemotherapie mit <Clinical_Drug>Taxol und Carboplatin</Clinical_Drug> (4.Zyklus</Therapeutic>) bei <Diagnosis_or_Pathology>bekannter Grunderkrankung</Diagnosis_or_Pathology>.,"{'id': 21, 'type': 'sentence', 'text': 'Die stationäre Aufnahme Ihrer Patientin erfolgte zur Fortführung der Chemotherapie mit Taxol und Carboplatin (4.Zyklus) bei bekannter Grunderkrankung.', 'offsets': [[679, 829]], 'document_id': 'Utz.tsv'}"
+"Die Einnahme von <Clinical_Drug>ZOFRAN ZYDIS 8 MG 1x1</Clinical_Drug> wurde empfohlen.
+
+<Medical_Test>Blutbild</Medical_Test> und <Medical_Test>Leberwerte</Medical_Test> waren unauffällig.
+Das <Medical_Test>Blutbild</Medical_Test> und die <Medical_Test>Leberwerte</Medical_Test> waren unauffällig.
+
+<Anatomy>Herz</Anatomy>-<Anatomy>Kreislauf-System</Anatomy>
+Das <Anatomy>Herz-Kreislauf-System</Anatomy>
+
+<Medical_Procedure>CT-gesteuerte Biopsie</Medical_Procedure> der <Anatomy>Lunge</Anatomy>
+Die <Medical_Procedure>CT-gesteuerte Biopsie</Medical_Procedure> der <Anatomy>Lunge</Anatomy>
+
+<Clinical_Diagnosis>chronische Bronchitis</Clinical_Diagnosis> mit <Clinical_Diagnosis>Exazerbation</Clinical_Diagnosis>
+Die <Clinical_Diagnosis>chronische Bronchitis</Clinical_Diagnosis> mit <Clinical_Diagnosis>Exazerbation</Clinical_Diagnosis>
+
+<Medical_Test>Ultraschall</Medical_Test> der <Anatomy>Gallenblase</Anatomy>
+Der <Medical_Test>Ultraschall</Medical_Test> der <Anatomy>Gallenblase</Anatomy>",<Clinical_Drug>ZOFRAN ZYDIS 8 MG 1x1</Clinical_Drug>,"{'id': 152, 'type': 'sentence', 'text': 'ZOFRAN ZYDIS 8 MG 1x1', 'offsets': [[9408, 9429]], 'document_id': 'Colon_Fake_H.tsv'}"
+"<Diagnosis_or_Pathology>Rasmussen-Enzephalitis</Diagnosis_or_Pathology> und <Diagnosis_or_Pathology>Anfallssemiologie</Diagnosis_or_Pathology>: Die <Diagnosis_or_Pathology>Epilepsia partialis continua links</Diagnosis_or_Pathology>, <Diagnosis_or_Pathology>generalisierten tonisch-komischen Anfälle</Diagnosis_or_Pathology> und <Diagnosis_or_Pathology>dialeptischen Anfälle</Diagnosis_or_Pathology>.",<Diagnosis_or_Pathology>Rasmussen-Enzephalitis</Diagnosis_or_Pathology> <Diagnosis_or_Pathology>Anfallssemiologie</Diagnosis_or_Pathology>: <Diagnosis_or_Pathology>Epilepsia partialis continua links</Diagnosis_or_Pathology> <Diagnosis_or_Pathology>Generalisiert tonisch-komische Anfälle</Diagnosis_or_Pathology> <Diagnosis_or_Pathology>Dialeptische Anfälle</Diagnosis_or_Pathology>,"{'id': 6, 'type': 'sentence', 'text': 'Rasmussen-Enzephalitis Anfallssemiologie: Epilepsia partialis continua links Generalisiert tonisch-komische Anfälle Dialeptische Anfälle', 'offsets': [[337, 473]], 'document_id': 'Zezelj.tsv'}"
+Assistenz: <JobTitle>DGKS</JobTitle> <Person>Katharina Blumauer</Person>,Assistenz: DGKS Katharina Blumauer,"{'id': 12, 'type': 'sentence', 'text': 'Assistenz: DGKS Katharina Blumauer', 'offsets': [[390, 424]], 'document_id': 'Tupolev_2.tsv'}"
+Wiedervorstellung am 13.11.2024 um 10.30 Uhr und am 20.11.2024 um 10.30 Uhr auf Station O-11 zur <Therapeutic>ambulanten Gabe</Therapeutic> von <Clinical_Drug>Vincristin</Clinical_Drug> (Woche 2-3 nach dem <Therapeutic>VAIA-Protokoll</Therapeutic>).,Wiedervorstellung am 13.11.2024 um 10.30 Uhr und am 20.11.2024 um 10.30 Uhr auf Station O-11 zur <Therapeutic>ambulanten Gabe von <Clinical_Drug>Vincristin</Therapeutic></Clinical_Drug> (Woche 2-3 nach dem <Therapeutic>VAIA-Protokoll</Therapeutic>).,"{'id': 89, 'type': 'sentence', 'text': 'Wiedervorstellung am 13.11.2024 um 10.30 Uhr und am 20.11.2024 um 10.30 Uhr auf Station O-11 zur ambulanten Gabe von Vincristin (Woche 2-3 nach dem VAIA-Protokoll).', 'offsets': [[11664, 11828]], 'document_id': 'Obradovic.tsv'}"
+Das <Location>Lehrkrankenhaus</Location> der <Organization>Medizinischen Universität Buxtehude</Organization>.,Lehrkrankenhaus der Medizinischen Universität Buxtehude,"{'id': 2, 'type': 'sentence', 'text': 'Lehrkrankenhaus der Medizinischen Universität Buxtehude', 'offsets': [[37, 92]], 'document_id': 'Colon_Fake_K.tsv'}"
+Wir bitten die Fortführung einer <Therapeutic>medizinischen Therapie</Therapeutic> mit <Clinical_Drug>Ursofalk</Clinical_Drug>.,Wir bitten die <Therapeutic>med. Therapie mit <Clinical_Drug>Ursofalk</Clinical_Drug> fortzuführen</Therapeutic>.,"{'id': 23, 'type': 'sentence', 'text': 'Wir bitten die med. Therapie mit Ursofalk fortzuführen.', 'offsets': [[1377, 1432]], 'document_id': 'Praechtel.tsv'}"
+Die <Diagnosis_or_Pathology>Hypothyreose bei Autoimmunthyreoiditis</Diagnosis_or_Pathology> wurde diagnostiziert.,7. <Diagnosis_or_Pathology>Hypothyreose bei Autoimmunthyreoiditis</Diagnosis_or_Pathology>,"{'id': 8, 'type': 'sentence', 'text': '7. Hypothyreose bei Autoimmunthyreoiditis', 'offsets': [[573, 614]], 'document_id': 'Weber.tsv'}"
+<Klinik>Die Klinik</Klinik> und <Poliklinik>Poliklinik</Poliklinik> für <Medical_specialty>Kinder- und Jugendmedizin</Medical_specialty>,KLINIK UND POLIKLINIK FÜR KINDER- UND JUGENDMEDIZIN,"{'id': 2, 'type': 'sentence', 'text': 'KLINIK UND POLIKLINIK FÜR KINDER- UND JUGENDMEDIZIN', 'offsets': [[34, 85]], 'document_id': 'Fuss.tsv'}"
+Am 25.03.2029 erfolgte eine <Therapeutic>Wundrevision</Therapeutic> mit <Therapeutic>Vacusealwechsel</Therapeutic>. Das <Therapeutic>Verbandsregime</Therapeutic> am Kopf wurde auf ein <Therapeutic>enzymatisches Debridement</Therapeutic> mit <Clinical_Drug>lruxolsalbe</Clinical_Drug> umgestellt. Ein erster <Therapeutic>debridierender Eingriff</Therapeutic> erfolgte am 27.03.2029.,Am 25.03.2029 erfolgte eine <Therapeutic>Wundrevision mil Vacusealwechsel</Therapeutic>. Das <Therapeutic>Verbandsregime am Kopf</Therapeutic> wurde auf ein <Therapeutic>enzymatisches Debridement mit <Clinical_Drug>lruxolsalbe</Therapeutic></Clinical_Drug> umgestellt. Ein erster <Therapeutic>debridierender Eingriff</Therapeutic> erfolgte am 27.03.2029.,"{'id': 27, 'type': 'sentence', 'text': 'Am 25.03.2029 erfolgte eine Wundrevision mil Vacusealwechsel. Das Verbandsregime am Kopf wurde auf ein enzymatisches Debridement mit lruxolsalbe umgestellt. Ein erster debridierender Eingriff erfolgte am 27.03.2029.', 'offsets': [[2416, 2631]], 'document_id': 'Albers.tsv'}"
+"Die Einnahme von <Clinical_Drug>Mexalen 500mg 1-0-1</Clinical_Drug> wurde empfohlen.
+
+<Anatomy>Herz</Anatomy>-<Anatomy>Kreislaufsystem</Anatomy> 
+Das <Anatomy>Herz</Anatomy> ist ein wichtiger Bestandteil des <Anatomy>Kreislaufsystems</Anatomy>.
+
+<Diagnostic>Blutbild</Diagnostic> 
+Ein <Diagnostic>Blutbild</Diagnostic> wurde angefordert.
+
+<Therapeutic>Physiotherapie</Therapeutic> 
+Die <Therapeutic>Physiotherapie</Therapeutic> wurde verschrieben.
+
+<Organisation>Deutsche Krebshilfe</Organisation> 
+Die <Organisation>Deutsche Krebshilfe</Organisation> unterstützt Krebspatienten und ihre Familien.",<Clinical_Drug>Mexalen 500mg 1-0-1</Clinical_Drug>,"{'id': 56, 'type': 'sentence', 'text': 'Mexalen 500mg 1-0-1', 'offsets': [[2465, 2484]], 'document_id': 'Colon_Fake_G.tsv'}"
+2044 Eine <Therapeutic>TIPS-Anlage</Therapeutic> wurde <Diagnostic>anamnestisch</Diagnostic> aufgrund von <Diagnosis_or_Pathology>rezidivierenden Ösophagusvarizenblutungen</Diagnosis_or_Pathology> durchgeführt.,"2044 <Therapeutic>TIPS-Anlage</Therapeutic>, <Diagnostic>anamnestisch</Diagnostic> bei <Diagnosis_or_Pathology>rez. Ösophagusvarizenblutungen</Diagnosis_or_Pathology>","{'id': 9, 'type': 'sentence', 'text': '2044 TIPS-Anlage, anamnestisch bei rez. Ösophagusvarizenblutungen', 'offsets': [[395, 460]], 'document_id': 'Osler.tsv'}"
+Der <Person>Direktor</Person> ist Univ.-Prof. Dr.med. Klaus Kortmann.,Direktor: Univ.-Prof. Dr.med. Klaus Kortmann,"{'id': 4, 'type': 'sentence', 'text': 'Direktor: Univ.-Prof. Dr.med. Klaus Kortmann', 'offsets': [[115, 159]], 'document_id': 'Kawasaki.tsv'}"
+"Das <Location>Universitätsklinikum Wilhelmsburg</Location> ist eine renommierte medizinische Einrichtung.
+
+Der <Organization>Verein zur Förderung der Krebsforschung</Organization> sammelt Spenden für die Forschung.
+
+Die <Person>Professorin Müller</Person> leitet die Abteilung für Neurologie.
+
+Das <Product>neue Medikament</Product> hat bei vielen Patienten positive Auswirkungen gezeigt.
+
+Die <Event>Pressekonferenz</Event> findet am Montag um 10 Uhr statt.
+
+Der <Date>31. Dezember</Date> ist Silvester.
+
+Die <Time>Stunde</Time> hat 60 Minuten.
+
+Das <Animal>Pferd</Animal> ist ein beliebtes Reittier.",Universitätsklinikum Wilhelmsburg,"{'id': 1, 'type': 'sentence', 'text': 'Universitätsklinikum Wilhelmsburg', 'offsets': [[0, 33]], 'document_id': 'Fuss.tsv'}"
+"Das <Diagnostic>Labor bei Aufnahme</Diagnostic> wurde untersucht.
+
+<Therapeutic>intravenöse Gabe von Antibiotika</Therapeutic>",<Diagnostic>Labor bei Aufnahme</Diagnostic>,"{'id': 39, 'type': 'sentence', 'text': 'Labor bei Aufnahme', 'offsets': [[1608, 1626]], 'document_id': 'Colon_Fake_G.tsv'}"
+"Im <Temporal>Verlauf</Temporal> der Erkrankung verschlechterte sich der Zustand des Patienten.
+
+Kontrolle
+
+Die <Diagnostic>Kontrolle</Diagnostic> der Blutwerte ergab keine Auffälligkeiten.
+
+Behandlung
+
+Die <Therapeutic>Behandlung</Therapeutic> der Schmerzen erfolgte mit Schmerzmitteln.
+
+Diagnose
+
+Die <Diagnostic>Diagnose</Diagnostic> der Erkrankung war schwierig zu stellen.
+
+Symptom
+
+Das <Symptom>Fieber</Symptom> trat plötzlich auf und hielt mehrere Tage an.
+
+Medikament
+
+Das <Therapeutic>Medikament</Therapeutic> wurde in der richtigen Dosierung verabreicht.
+
+Therapie
+
+Die <Therapeutic>Therapie</Therapeutic> umfasste sowohl medikamentöse als auch nicht-medikamentöse Maßnahmen.
+
+Operation
+
+Die <Therapeutic>Operation</Therapeutic> verlief erfolgreich und ohne Komplikationen.
+
+Krankheit
+
+Die <Pathology>Krankheit</Pathology> hatte schwerwiegende Auswirkungen auf das Leben des Patienten.",Verlauf,"{'id': 64, 'type': 'sentence', 'text': 'Verlauf', 'offsets': [[6608, 6615]], 'document_id': 'Colon_Fake_J.tsv'}"
+Das rechte Ohr zeigt keinen <Diagnosis_or_Pathology>Tragusdruckschmerz</Diagnosis_or_Pathology> oder <Diagnosis_or_Pathology>Mastoisklopfschmerz</Diagnosis_or_Pathology>. Der <Other_Finding>Gehörgang</Other_Finding> ist bland und das <Other_Finding>Trommelfell</Other_Finding> unauffällig. Die <Other_Finding>Vasalva-Test</Other_Finding> ist positiv.,"Rechtes Ohr: kein <Diagnosis_or_Pathology>Tragusdruckschmerz</Diagnosis_or_Pathology>, kein <Diagnosis_or_Pathology>Mastoisklopfschmerz</Diagnosis_or_Pathology>, <Other_Finding>Gehörgang bland</Other_Finding>, <Other_Finding>Tf unauff.</Other_Finding>, <Other_Finding>Vasalva pos.</Other_Finding>","{'id': 21, 'type': 'sentence', 'text': 'Rechtes Ohr: kein Tragusdruckschmerz, kein Mastoisklopfschmerz, Gehörgang bland, Tf unauff., Vasalva pos.', 'offsets': [[720, 825]], 'document_id': 'Joubert.tsv'}"
+"Die <Clinical_Drug>Anwendung von Furosemid 40mg 1½-0-0</Clinical_Drug> wurde empfohlen.
+
+<Anatomy>Herz</Anatomy>-<Anatomy>Kreislauf-System</Anatomy> 
+Das <Anatomy>Herz</Anatomy> ist ein wichtiger Bestandteil des <Anatomy>Kreislauf-Systems</Anatomy>.
+
+<Diagnostic>Blutbild</Diagnostic> und <Diagnostic>CRP</Diagnostic> 
+Das <Diagnostic>Blutbild</Diagnostic> und das <Diagnostic>CRP</Diagnostic> wurden untersucht.
+
+<Therapeutic>Antibiotikatherapie</Therapeutic> 
+Eine <Therapeutic>Antibiotikatherapie</Therapeutic> wurde eingeleitet.
+
+<Organisation>Deutsche Gesellschaft für Ernährung</Organisation> 
+Die <Organisation>Deutsche Gesellschaft für Ernährung</Organisation> hat neue Empfehlungen herausgegeben.
+
+<Medical_Test>CT-Untersuchung</Medical_Test> 
+Eine <Medical_Test>CT-Untersuchung</Medical_Test> wurde durchgeführt.
+
+<Medical_Procedure>Herzkatheteruntersuchung</Medical_Procedure> 
+Eine <Medical_Procedure>Herzkatheteruntersuchung</Medical_Procedure> wurde durchgeführt.",<Clinical_Drug>Furosemid 40mg 1½-0-0</Clinical_Drug>,"{'id': 47, 'type': 'sentence', 'text': 'Furosemid 40mg 1½-0-0', 'offsets': [[1886, 1907]], 'document_id': 'Colon_Fake_C.tsv'}"
+<Other_Finding>Die Implantation eines Port-a-caths</Other_Finding> fand im August 2023 statt.,<Other_Finding>St.p. <Therapeutic>Port-a-cath Implantation</Other_Finding></Therapeutic> 8/2023,"{'id': 8, 'type': 'sentence', 'text': 'St.p. Port-a-cath Implantation 8/2023', 'offsets': [[337, 374]], 'document_id': 'Colon_Fake_C.tsv'}"
+Die <Diagnosis_or_Pathology>Diagnosen</Diagnosis_or_Pathology> wurden vom Arzt gestellt und dem Patienten mitgeteilt.,<Diagnosis_or_Pathology>Diagnosen</Diagnosis_or_Pathology>:,"{'id': 4, 'type': 'sentence', 'text': 'Diagnosen:', 'offsets': [[211, 221]], 'document_id': 'Meyr.tsv'}"
+Ein <Other_Finding>kardiopulmonaler unauffälliger Auskultations- und Perkussionsbefund</Other_Finding> wurde festgestellt.,<Other_Finding>kardiopulmonal unauffälliger Auskultations- und Perkussionsbefund</Other_Finding>,"{'id': 25, 'type': 'sentence', 'text': 'kardiopulmonal unauffälliger Auskultations- und Perkussionsbefund', 'offsets': [[928, 993]], 'document_id': 'Colon_Fake_C.tsv'}"
+<Other_Finding>St. p. <Therapeutic>Erhaltungstherapie</Other_Finding> mit DTIC</Therapeutic> 6.10. bis 9.10.2023 (<Diagnosis_or_Pathology>Abbruch wegen Anstieg der Leberparameter und Eosinophilie</Diagnosis_or_Pathology>),<Other_Finding>St. p. <Therapeutic>1. Chemotherapie</Other_Finding> mit DTIC</Therapeutic> 6.10. bis 9.10.2023 (<Diagnosis_or_Pathology>Abbruch wegen Anstieg der Leberparameter und Eosinophilie</Diagnosis_or_Pathology>),"{'id': 16, 'type': 'sentence', 'text': 'St. p. 1. Chemotherapie mit DTIC 6.10. bis 9.10.2023 (Abbruch wegen Anstieg der Leberparameter und Eosinophilie)', 'offsets': [[731, 843]], 'document_id': 'Koenig.tsv'}"
+3. Eine <Therapeutic>Chemotherapie</Therapeutic> mit den Wirkstoffen <Clinical_Drug>Etoposid</Clinical_Drug> und <Clinical_Drug>Carboplatin</Clinical_Drug> wurde durchgeführt.,3. <Therapeutic>Chemotherapie</Therapeutic> (<Clinical_Drug>Etoposid</Clinical_Drug>/ <Clinical_Drug>Carboplatin</Clinical_Drug>),"{'id': 19, 'type': 'sentence', 'text': '3. Chemotherapie (Etoposid/ Carboplatin)', 'offsets': [[793, 833]], 'document_id': 'Kawasaki.tsv'}"
+Die E-Mail-Adresse lautet <Email>termin.dot@uniklinik-berlin.de</Email>.,termin.dot@uniklinik-berlin.de,"{'id': 13, 'type': 'sentence', 'text': 'termin.dot@uniklinik-berlin.de', 'offsets': [[379, 409]], 'document_id': 'Weil.tsv'}"
+"Das <Diagnostic>Aufnahme-EKG</Diagnostic> zeigte keine Auffälligkeiten.
+
+<Therapeutic>intravenöse Antibiose</Therapeutic>: 
+Die <Therapeutic>intravenöse Antibiose</Therapeutic> wurde für 10 Tage fortgesetzt.
+
+<Anatomy>Herz</Anatomy>:
+Das <Anatomy>Herz</Anatomy> schlägt regelmäßig.
+
+<Medication>Morphin</Medication>:
+Das <Medication>Morphin</Medication> wurde alle 4 Stunden verabreicht.
+
+<Procedure>Blutentnahme</Procedure>:
+Die <Procedure>Blutentnahme</Procedure> erfolgte am Morgen.
+
+<Lab>Blutbild</Lab>:
+Das <Lab>Blutbild</Lab> zeigte eine leichte Anämie.
+
+<Anatomy>Gehirn</Anatomy>:
+Das <Anatomy>Gehirn</Anatomy> ist das zentrale Nervensystem des Körpers.
+
+<Diagnostic>CT-Untersuchung</Diagnostic>:
+Die <Diagnostic>CT-Untersuchung</Diagnostic> ergab keine Hinweise auf eine Raumforderung.
+
+<Therapeutic>Physiotherapie</Therapeutic>:
+Die <Therapeutic>Physiotherapie</Therapeutic> wurde zweimal wöchentlich durchgeführt.",<Diagnostic>Aufnahme-EKG</Diagnostic>:,"{'id': 25, 'type': 'sentence', 'text': 'Aufnahme-EKG:', 'offsets': [[1668, 1681]], 'document_id': 'Fabry.tsv'}"
+"<Diagnosis_or_Pathology>Reizlose Verschlussnarbe</Diagnosis_or_Pathology>, <Diagnosis_or_Pathology>großbogige flexible li.-konvexe thoracolumbale Skoliose</Diagnosis_or_Pathology>, keine <Diagnosis_or_Pathology>wesentliche Kyphose</Diagnosis_or_Pathology>. 
+
+Die Patientin hat eine <Diagnosis_or_Pathology>reizlose Verschlussnarbe</Diagnosis_or_Pathology> und eine <Diagnosis_or_Pathology>großbogige flexible li.-konvexe thoracolumbale Skoliose</Diagnosis_or_Pathology>, jedoch keine <Diagnosis_or_Pathology>wesentliche Kyphose</Diagnosis_or_Pathology>.","<Diagnosis_or_Pathology>Reizlose Verschlussnarbe</Diagnosis_or_Pathology>, <Diagnosis_or_Pathology>großbogige flexible li.-konvexe thoracolumbale Skoliose</Diagnosis_or_Pathology>, keine <Diagnosis_or_Pathology>wesentliche Kyphose</Diagnosis_or_Pathology>.","{'id': 6, 'type': 'sentence', 'text': 'Reizlose Verschlussnarbe, großbogige flexible li.-konvexe thoracolumbale Skoliose, keine wesentliche Kyphose.', 'offsets': [[455, 564]], 'document_id': 'Beuerle.tsv'}"
+"<Bekannte Skoliose>Die bekannte Skoliose</Bekannte Skoliose>, <rez. HWS-BWS-Beschwerden>die rezidivierenden HWS-BWS-Beschwerden</rez. HWS-BWS-Beschwerden>.","<Diagnosis_or_Pathology>Bekannte Skoliose</Diagnosis_or_Pathology>, <Diagnosis_or_Pathology>rez. HWS-BWS-Beschwerden</Diagnosis_or_Pathology>.","{'id': 18, 'type': 'sentence', 'text': 'Bekannte Skoliose, rez. HWS-BWS-Beschwerden.', 'offsets': [[1691, 1735]], 'document_id': 'Quervain.tsv'}"
+"1. Der <Person>Arzt</Person> hat mir eine <Diagnostic>Diagnose</Diagnostic> gestellt und eine <Therapeutic>Therapie</Therapeutic> empfohlen.
+2. Die <Person>Patientin</Person> hat eine <Diagnostic>Untersuchung</Diagnostic> durchführen lassen und erhält nun eine <Therapeutic>Behandlung</Therapeutic>.
+3. Der <Person>Chirurg</Person> hat die <Diagnostic>Operation</Diagnostic> erfolgreich durchgeführt und die <Therapeutic>Wunde</Therapeutic> versorgt.
+4. Die <Person>Krankenschwester</Person> hat die <Diagnostic>Vitalwerte</Diagnostic> der <Person>Patientin</Person> gemessen und die <Therapeutic>Medikamente</Therapeutic> verabreicht.
+5. Der <Person>Physiotherapeut</Person> hat eine <Diagnostic>Untersuchung</Diagnostic> des <Therapeutic>Bewegungsapparats</Therapeutic> durchgeführt und eine <Therapeutic>Übungstherapie</Therapeutic> empfohlen.",Zi: 119,"{'id': 9, 'type': 'sentence', 'text': 'Zi: 119', 'offsets': [[275, 282]], 'document_id': 'Tupolev_1.tsv'}"
+Eine <Therapeutic>endständige Sigmoideostomie</Therapeutic> wurde am 14.3.2033 durchgeführt.,<Therapeutic>endständige Sigmoideostomie</Therapeutic> (14.3.2033),"{'id': 17, 'type': 'sentence', 'text': 'endständige Sigmoideostomie (14.3.2033)', 'offsets': [[647, 686]], 'document_id': 'Colon_Fake_E.tsv'}"
+<Diagnostic>Kontrollen</Diagnostic>: Wiedervorstellung abhängig vom <Other_Finding>histologischen Befund</Other_Finding>.,<Diagnostic>Kontrollen</Diagnostic>: Wiedervorstellung abhängig vom <Other_Finding>histologischen Befund</Other_Finding>.,"{'id': 25, 'type': 'sentence', 'text': 'Kontrollen: Wiedervorstellung abhängig vom histologischen Befund.', 'offsets': [[1390, 1455]], 'document_id': 'Meulengracht.tsv'}"
+Die Dosierung von <Clinical_Drug>Seloken® retard 95 mg 1/2-1/2-1/2</Clinical_Drug> wurde angepasst.,<Clinical_Drug>Seloken® retard 95 mg 1/2-1/2-1/2</Clinical_Drug>,"{'id': 41, 'type': 'sentence', 'text': 'Seloken® retard 95 mg 1/2-1/2-1/2', 'offsets': [[1646, 1679]], 'document_id': 'Colon_Fake_A.tsv'}"
+"<Diagnosis_or_Pathology>Diagnosen</Diagnosis_or_Pathology>: <Diagnosis_or_Pathology>Pankreasschwankarzinom</Diagnosis_or_Pathology>, <Diagnosis_or_Pathology>ED</Diagnosis_or_Pathology> 05/11","<Diagnosis_or_Pathology>Diagnose(n)</Diagnosis_or_Pathology>: <Diagnosis_or_Pathology>Pankreasschwankarzinom</Diagnosis_or_Pathology>, <Diagnosis_or_Pathology>ED</Diagnosis_or_Pathology> 05/11","{'id': 2, 'type': 'sentence', 'text': 'Diagnose(n): Pankreasschwankarzinom, ED 05/11', 'offsets': [[92, 137]], 'document_id': 'Tupolev_4.tsv'}"
+Mit freundlichen kollegialen Grüßen,Mit freundlichen kollegialen Grüßen,"{'id': 63, 'type': 'sentence', 'text': 'Mit freundlichen kollegialen Grüßen', 'offsets': [[9625, 9660]], 'document_id': 'Fuss.tsv'}"
+05.08.2022 ist <Date>vorgesehen</Date>.,05.08.2022 vorgesehen.,"{'id': 77, 'type': 'sentence', 'text': '05.08.2022 vorgesehen.', 'offsets': [[5321, 5343]], 'document_id': 'Xavier.tsv'}"
+Eine <Therapeutic>Restthyreoidektomie</Therapeutic> wurde im November 2014 durchgeführt.,- <Therapeutic>Restthyreoidectomie</Therapeutic> 11/14,"{'id': 36, 'type': 'sentence', 'text': '- Restthyreoidectomie 11/14', 'offsets': [[2329, 2356]], 'document_id': 'Xavier.tsv'}"
+"Die stat. Aufnahme Ihres Pat. erfolgte zum geplanten <Therapeutic>9. Zyklus einer Chemotherapie mit <Clinical_Drug>Carboplatin</Clinical_Drug></Therapeutic>. Im <Diagnostic>extern durchgeführten CT Schädel bis Becken</Diagnostic> vom 18.8.2024 zeigte sich eine <Diagnosis_or_Pathology>suspekte Kleinhirnmetastase rechts</Diagnosis_or_Pathology>. Zusätzlich zeigte sich <Diagnosis_or_Pathology>im <Nutrient_or_Body_Substance>Harn</Nutrient_or_Body_Substance> eine ausgeprägte Leukozyturie</Diagnosis_or_Pathology>, weshalb vorerst von einer <Therapeutic>Chemotherapie</Therapeutic> Abstand genommen wurde und ein <Diagnostic>Magnetresonanztomographie des Schädels</Diagnostic> sowie eine <Therapeutic>Antibiose mit <Clinical_Drug>Ciproxin</Clinical_Drug> durchgeführt</Therapeutic> wurde. Im <Diagnostic>Magnetresonanztomographie des Schädels</Diagnostic> konnte eine <Diagnosis_or_Pathology>cerebrale Metastasierung</Diagnosis_or_Pathology> ausgeschlossen werden.","Die stat. Aufnahme Ihres Pat. erfolgte zum geplanten <Therapeutic>9. Zyklus einer Chemotherapie mit <Clinical_Drug>Carboplatin</Therapeutic></Clinical_Drug>. Im <Diagnostic>extern durchgeführten CT Schädel bis Becken</Diagnostic> vom 18.8.2024 zeigte sich eine <Diagnosis_or_Pathology>suspekte Kleinhirnmetastase rechts</Diagnosis_or_Pathology>. Zusätzlich zeigte sich <Diagnosis_or_Pathology>im <Nutrient_or_Body_Substance>Harn</Nutrient_or_Body_Substance> eine ausgeprägte Leukozyturie</Diagnosis_or_Pathology>, weshalb vorerst von einer <Therapeutic>Chemotherapie</Therapeutic> Abstand genommen wurde und ein <Diagnostic>MR des Schädels</Diagnostic> sowie eine <Therapeutic>Antibiose mit <Clinical_Drug>Ciproxin</Clinical_Drug> durchgefürhrt</Therapeutic> wurde. Im <Diagnostic>MR Schädel</Diagnostic> konnte eine <Diagnosis_or_Pathology>cerebrale Metastasierung</Diagnosis_or_Pathology> ausgeschlossen werden.","{'id': 27, 'type': 'sentence', 'text': 'Die stat. Aufnahme Ihres Pat. erfolgte zum geplanten 9. Zyklus einer Chemotherapie mit Carboplatin. Im extern durchgeführten CT Schädel bis Becken vom 18.8.2024 zeigte sich eine suspekte Kleinhirnmetastase rechts. Zusätzlich zeigte sich im Harn eine ausgeprägte Leukozyturie, weshalb vorerst von einer Chemotherapie Abstand genommen wurde und ein MR des Schädels sowie eine Antibiose mit Ciproxin durchgefürhrt wurde. Im MR Schädel konnte eine cerebrale Metastasierung ausgeschlossen werden.', 'offsets': [[1393, 1884]], 'document_id': 'Koenig.tsv'}"
+"Die Ergebnisse des <Diagnostic>Labor</Diagnostic>s waren unauffällig.
+
+<Therapeutic>Medikament</Therapeutic>: Der Patient erhielt ein <Therapeutic>Medikament</Therapeutic> zur Schmerzlinderung.
+
+<Anatomy>Herz</Anatomy>: Der Arzt untersuchte das <Anatomy>Herz</Anatomy> des Patienten.
+
+<Procedure>Operation</Procedure>: Die <Procedure>Operation</Procedure> verlief erfolgreich.
+
+<Chemical>Insulin</Chemical>: Der Diabetiker benötigt täglich eine Injektion mit <Chemical>Insulin</Chemical>.
+
+<Disease>Diabetes</Disease>: Der Patient leidet an <Disease>Diabetes</Disease>.
+
+<Organisation>WHO</Organisation>: Die <Organisation>WHO</Organisation> empfiehlt regelmäßiges Händewaschen.
+
+<Drug>Morphin</Drug>: Das <Drug>Morphin</Drug> wurde zur Schmerzlinderung verabreicht.
+
+<Anatomy>Gehirn</Anatomy>: Eine Verletzung des <Anatomy>Gehirn</Anatomy>s kann schwerwiegende Folgen haben.
+
+<Diagnostic>CT</Diagnostic>: Der Arzt ordnete eine <Diagnostic>CT</Diagnostic>-Untersuchung an.",<Diagnostic>Labor</Diagnostic>:,"{'id': 25, 'type': 'sentence', 'text': 'Labor:', 'offsets': [[2233, 2239]], 'document_id': 'Waldenström.tsv'}"
+"Die <Therapeutic>Operation</Therapeutic> wurde für den 2. Mai 2023 festgelegt, womit die Patientin einverstanden war.","Die <Therapeutic>Operation</Therapeutic> wurde für 2/5/2023 festgelegt, womit die Pat. einverstanden war.","{'id': 125, 'type': 'sentence', 'text': 'Die Operation wurde für 2/5/2023 festgelegt, womit die Pat. einverstanden war.', 'offsets': [[7653, 7731]], 'document_id': 'Colon_Fake_H.tsv'}"
+"Wir berichten von der Frau Antonia Anderer, geboren am 21.03.2017, mit einem stationären Aufenthalt vom 12.12.66 bis zum 23.12.66.","wir berichten von Frau Antonia Anderer, *21/3/2017, stat. Aufenthalt 12/12/66 - 23/12/66","{'id': 3, 'type': 'sentence', 'text': 'wir berichten von Frau Antonia Anderer, *21/3/2017, stat. Aufenthalt 12/12/66 - 23/12/66', 'offsets': [[63, 151]], 'document_id': 'Colon_Fake_A.tsv'}"
+Das <Therapeutic>Procedere</Therapeutic> wurde mit dem Patienten besprochen und er stimmte der Behandlung zu.,<Therapeutic>Procedere</Therapeutic>:,"{'id': 16, 'type': 'sentence', 'text': 'Procedere:', 'offsets': [[2070, 2080]], 'document_id': 'Beuerle.tsv'}"

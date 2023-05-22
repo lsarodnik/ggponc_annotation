@@ -1,0 +1,67 @@
+{
+    "passages": [
+        {
+            "id": 1,
+            "type": "sentence",
+            "text": "Die <Therapeutic>Transplantat</Therapeutic>\u00b7 und <Therapeutic>Entnahmeareale</Therapeutic> sollten <Therapeutic>t\u00e4glich mehrfach mit <Clinical_Drug>fettenden Salben</Clinical_Drug> (z.B. <Clinical_Drug>Panthenol</Clinical_Drug>) gepflegt</Therapeutic> werden.",
+            "offsets": [
+                [
+                    0,
+                    116
+                ]
+            ]
+        }
+    ],
+    "entities": [
+        {
+            "text": "Transplantat",
+            "type": "Therapeutic",
+            "offsets": [
+                [
+                    4,
+                    15
+                ]
+            ]
+        },
+        {
+            "text": "Entnahmeareale",
+            "type": "Therapeutic",
+            "offsets": [
+                [
+                    23,
+                    36
+                ]
+            ]
+        },
+        {
+            "text": "t\u00e4glich mehrfach mit fettenden Salben> (z.B. Panthenol>) gepflegt",
+            "type": "Therapeutic",
+            "offsets": [
+                [
+                    47,
+                    113
+                ]
+            ]
+        },
+        {
+            "text": "fettenden Salben",
+            "type": "Clinical_Drug",
+            "offsets": [
+                [
+                    68,
+                    83
+                ]
+            ]
+        },
+        {
+            "text": "Panthenol",
+            "type": "Clinical_Drug",
+            "offsets": [
+                [
+                    92,
+                    100
+                ]
+            ]
+        }
+    ]
+}

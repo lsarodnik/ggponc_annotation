@@ -1,0 +1,239 @@
+Am 17.06.2027 wurde eine <Diagnostic>CT-Angiographie der Pulmonalgefäße</Diagnostic> durchgeführt.
+Der <Diagnostic>Aufnahmegrund</Diagnostic> des Patienten war eine akute Atemnot.
+
+Medikament: Der Arzt verschrieb dem Patienten ein <Therapeutic>Medikament</Therapeutic> gegen seine Schmerzen.
+
+Krankenhaus: Der Patient wurde in ein <Location>Krankenhaus</Location> eingeliefert und dort behandelt.
+
+Blutdruck: Der <Diagnostic>Blutdruck</Diagnostic> des Patienten war zu hoch und musste gesenkt werden.
+
+Operation: Der Patient musste sich einer <Therapeutic>Operation</Therapeutic> unterziehen, um seine Verletzungen zu behandeln.
+
+Allergie: Der Patient hatte eine <Diagnostic>Allergie</Diagnostic> gegen Penicillin und konnte das Medikament nicht einnehmen.
+
+Diagnose: Die <Diagnostic>Diagnose</Diagnostic> des Arztes lautete auf eine Lungenentzündung.
+
+Therapie: Der Patient erhielt eine <Therapeutic>Therapie</Therapeutic> mit Antibiotika, um seine Infektion zu behandeln.
+
+Krankheit: Der Patient litt an einer <Diagnostic>Krankheit</Diagnostic>, die seine Beweglichkeit einschränkte.
+
+Symptom: Das <Diagnostic>Symptom</Diagnostic> des Patienten war ein starker Husten.
+Im <Nutrient_or_Body_Substance>TS</Nutrient_or_Body_Substance> vom 01.02.2028 wurden <Diagnosis_or_Pathology>Klebsiellen</Diagnosis_or_Pathology> diagnostiziert, die gegenüber <Clinical_Drug>Piperacillin</Clinical_Drug> resistent sind, jedoch nicht gegenüber <Clinical_Drug>Tazobac</Clinical_Drug>.
+<Therapeutic>Die medikamentöse Behandlung</Therapeutic> erfolgte <Therapeutic>mit <Clinical_Drug>Taxilan in einer Dosierung von 300 mg täglich</Clinical_Drug>.</Therapeutic>
+<NamedEntity>Claudia Dupuytren</NamedEntity>
+
+Die Firma Apple Inc. hat gestern ein neues iPhone vorgestellt.
+Das <Diagnosis_or_Pathology>systemische inflammatorische Response-Syndrom [SIRS]</Diagnosis_or_Pathology> infektiöser Genese ohne Organkomplikationen wurde diagnostiziert.
+<Other_Finding>Leukozytenzahl 6.21</Other_Finding>, <Other_Finding>Erythrozytenzahl 4.87</Other_Finding>, <Other_Finding>Hämoglobinwert 14.1</Other_Finding>, <Diagnosis_or_Pathology>Hämatokritwert 33.5</Diagnosis_or_Pathology>, <Diagnosis_or_Pathology>mittleres Zellvolumen 72.1m</Diagnosis_or_Pathology> <Other_Finding>mittlere Hämoglobinkonzentration 29.9</Other_Finding>, <Diagnosis_or_Pathology>mittlere korpuskuläre Hämoglobinkonzentration 32.3</Diagnosis_or_Pathology>, <Other_Finding>Thrombozytenzahl 234500</Other_Finding>, <Other_Finding>mittleres Thrombozytenvolumen 8.2</Other_Finding>, <Diagnosis_or_Pathology>Natriumwert 143</Diagnosis_or_Pathology>,
+Die Einnahme von <Clinical_Drug>Gastrozol 20 mg 1-0-0</Clinical_Drug> wurde empfohlen.
+Die Indikation war eine <Diagnostic>histologische Sicherung</Diagnostic> bei einem <Diagnosis_or_Pathology>großen Pankreasprozess in palliativer Situation</Diagnosis_or_Pathology>.
+Der <Diagnosis_or_Pathology>Hämoglobinwert</Diagnosis_or_Pathology> bei Entlassung betrug 10,2.
+Im <Temporal>Verlauf</Temporal> der Erkrankung verschlechterte sich der Zustand des Patienten.
+
+Behandlung: Die <Therapeutic>Behandlung</Therapeutic> umfasste eine Kombination aus Medikamenten und Physiotherapie.
+
+Diagnose: Die <Diagnostic>Diagnose</Diagnostic> wurde durch eine Blutuntersuchung bestätigt.
+
+Symptome: Die <Signs_and_Symptoms>Symptome</Signs_and_Symptoms> des Patienten waren Fieber und Husten.
+
+Medikamente: Der Patient erhielt eine Kombination aus verschiedenen <Medication>Medikamenten</Medication>.
+
+Chirurgie: Eine <Therapeutic>Chirurgie</Therapeutic> war notwendig, um den Tumor zu entfernen.
+
+Krankenhaus: Der Patient wurde in ein <Facility>Krankenhaus</Facility> eingeliefert und auf der Intensivstation behandelt.
+
+Therapie: Die <Therapeutic>Therapie</Therapeutic> umfasste eine Kombination aus Medikamenten und Psychotherapie.
+
+Laborwerte: Die <Diagnostic>Laborwerte</Diagnostic> zeigten eine erhöhte Anzahl an weißen Blutkörperchen.
+
+Prognose: Die <Prognosis>Prognose</Prognosis> des Patienten war unklar und hing von der Wirksamkeit der Behandlung ab.
+2. <Diagnosis_or_Pathology>Der Diabetes mellitus Typ II</Diagnosis_or_Pathology> und die <Diagnosis_or_Pathology>ED</Diagnosis_or_Pathology> im Jahr 2050
+<Clinical_Drug>NaCl 0,9%</Clinical_Drug> wird mit einer Rate von <Clinical_Drug>9,0ml/h</Clinical_Drug> (in einer Menge von <Clinical_Drug>500ml</Clinical_Drug>) verabreicht.
+Eine <Clinical_Drug>Diflucan</Clinical_Drug>-Infusion mit einem Bolus von 400mg in 200ml fertig gelöster Lösung wurde verabreicht.
+<Diagnosis_or_Pathology>Diagnose</Diagnosis_or_Pathology>: Asthma bronchiale bei TypI-Allergie auf Schimmelpilze, Gräserpollen, (<Diagnosis_or_Pathology>ICD-10: J45.9</Diagnosis_or_Pathology>)
+<Diagnostic>Regelmäßige Kontrolle der Wunde</Diagnostic> und VW jeden Tag oder jeden 2. Tag beim Hausarzt, <Diagnostic>Kontrolle der Wunde</Diagnostic> in 2 Tagen und danach in 1 Woche in unserer Ambulanz.
+Am 10. 03. 2043 kann Frau Korsakoff wieder auf die Normalstation verlegt werden. Sie wird <Therapeutic>mit einer zusätzlichen Ernährung durch <Clinical_Drug>Smofkabiven zentral</Clinical_Drug></Therapeutic> versorgt. Während des stat. Aufenthaltes wird die <Therapeutic>Physiotherapie</Therapeutic> des Hauses zur <Therapeutic>Mobilisierung</Therapeutic> der Patientin hinzugezogen.
+Die <Diagnostic>Beurteilung</Diagnostic> des Patienten ergab keine Auffälligkeiten.
+Die <Location>Hochschulambulanz</Location> ist eine Einrichtung, die von der <Organization>Hochschule</Organization> betrieben wird. In der <Location>Hochschulambulanz</Location> werden Patienten von Ärzten und Pflegepersonal behandelt.
+<Diagnosis_or_Pathology>Pfortaderfluss</Diagnosis_or_Pathology>: 18 cm/s, <Diagnosis_or_Pathology>A.hepatica RI-Wert</Diagnosis_or_Pathology>: 0,86. <Diagnosis_or_Pathology>Reduziertes Flußsignal in VCI</Diagnosis_or_Pathology>.
+Die stationäre Aufnahme Ihrer Patientin erfolgte zur <Therapeutic>Fortführung der Chemotherapie mit <Clinical_Drug>Taxol und Carboplatin</Clinical_Drug> (4. Zyklus</Therapeutic>) bei einer <Diagnosis_or_Pathology>bekannten Grunderkrankung</Diagnosis_or_Pathology>.
+Die Einnahme von <Clinical_Drug>ZOFRAN ZYDIS 8 MG 1x1</Clinical_Drug> wurde empfohlen.
+
+<Medical_Test>Blutbild</Medical_Test> und <Medical_Test>Leberwerte</Medical_Test> waren unauffällig.
+Das <Medical_Test>Blutbild</Medical_Test> und die <Medical_Test>Leberwerte</Medical_Test> waren unauffällig.
+
+<Anatomy>Herz</Anatomy>-<Anatomy>Kreislauf-System</Anatomy>
+Das <Anatomy>Herz-Kreislauf-System</Anatomy>
+
+<Medical_Procedure>CT-gesteuerte Biopsie</Medical_Procedure> der <Anatomy>Lunge</Anatomy>
+Die <Medical_Procedure>CT-gesteuerte Biopsie</Medical_Procedure> der <Anatomy>Lunge</Anatomy>
+
+<Clinical_Diagnosis>chronische Bronchitis</Clinical_Diagnosis> mit <Clinical_Diagnosis>Exazerbation</Clinical_Diagnosis>
+Die <Clinical_Diagnosis>chronische Bronchitis</Clinical_Diagnosis> mit <Clinical_Diagnosis>Exazerbation</Clinical_Diagnosis>
+
+<Medical_Test>Ultraschall</Medical_Test> der <Anatomy>Gallenblase</Anatomy>
+Der <Medical_Test>Ultraschall</Medical_Test> der <Anatomy>Gallenblase</Anatomy>
+<Diagnosis_or_Pathology>Rasmussen-Enzephalitis</Diagnosis_or_Pathology> und <Diagnosis_or_Pathology>Anfallssemiologie</Diagnosis_or_Pathology>: Die <Diagnosis_or_Pathology>Epilepsia partialis continua links</Diagnosis_or_Pathology>, <Diagnosis_or_Pathology>generalisierten tonisch-komischen Anfälle</Diagnosis_or_Pathology> und <Diagnosis_or_Pathology>dialeptischen Anfälle</Diagnosis_or_Pathology>.
+Assistenz: <JobTitle>DGKS</JobTitle> <Person>Katharina Blumauer</Person>
+Wiedervorstellung am 13.11.2024 um 10.30 Uhr und am 20.11.2024 um 10.30 Uhr auf Station O-11 zur <Therapeutic>ambulanten Gabe</Therapeutic> von <Clinical_Drug>Vincristin</Clinical_Drug> (Woche 2-3 nach dem <Therapeutic>VAIA-Protokoll</Therapeutic>).
+Das <Location>Lehrkrankenhaus</Location> der <Organization>Medizinischen Universität Buxtehude</Organization>.
+Wir bitten die Fortführung einer <Therapeutic>medizinischen Therapie</Therapeutic> mit <Clinical_Drug>Ursofalk</Clinical_Drug>.
+Die <Diagnosis_or_Pathology>Hypothyreose bei Autoimmunthyreoiditis</Diagnosis_or_Pathology> wurde diagnostiziert.
+<Klinik>Die Klinik</Klinik> und <Poliklinik>Poliklinik</Poliklinik> für <Medical_specialty>Kinder- und Jugendmedizin</Medical_specialty>
+Am 25.03.2029 erfolgte eine <Therapeutic>Wundrevision</Therapeutic> mit <Therapeutic>Vacusealwechsel</Therapeutic>. Das <Therapeutic>Verbandsregime</Therapeutic> am Kopf wurde auf ein <Therapeutic>enzymatisches Debridement</Therapeutic> mit <Clinical_Drug>lruxolsalbe</Clinical_Drug> umgestellt. Ein erster <Therapeutic>debridierender Eingriff</Therapeutic> erfolgte am 27.03.2029.
+Die Einnahme von <Clinical_Drug>Mexalen 500mg 1-0-1</Clinical_Drug> wurde empfohlen.
+
+<Anatomy>Herz</Anatomy>-<Anatomy>Kreislaufsystem</Anatomy> 
+Das <Anatomy>Herz</Anatomy> ist ein wichtiger Bestandteil des <Anatomy>Kreislaufsystems</Anatomy>.
+
+<Diagnostic>Blutbild</Diagnostic> 
+Ein <Diagnostic>Blutbild</Diagnostic> wurde angefordert.
+
+<Therapeutic>Physiotherapie</Therapeutic> 
+Die <Therapeutic>Physiotherapie</Therapeutic> wurde verschrieben.
+
+<Organisation>Deutsche Krebshilfe</Organisation> 
+Die <Organisation>Deutsche Krebshilfe</Organisation> unterstützt Krebspatienten und ihre Familien.
+2044 Eine <Therapeutic>TIPS-Anlage</Therapeutic> wurde <Diagnostic>anamnestisch</Diagnostic> aufgrund von <Diagnosis_or_Pathology>rezidivierenden Ösophagusvarizenblutungen</Diagnosis_or_Pathology> durchgeführt.
+Der <Person>Direktor</Person> ist Univ.-Prof. Dr.med. Klaus Kortmann.
+Das <Location>Universitätsklinikum Wilhelmsburg</Location> ist eine renommierte medizinische Einrichtung.
+
+Der <Organization>Verein zur Förderung der Krebsforschung</Organization> sammelt Spenden für die Forschung.
+
+Die <Person>Professorin Müller</Person> leitet die Abteilung für Neurologie.
+
+Das <Product>neue Medikament</Product> hat bei vielen Patienten positive Auswirkungen gezeigt.
+
+Die <Event>Pressekonferenz</Event> findet am Montag um 10 Uhr statt.
+
+Der <Date>31. Dezember</Date> ist Silvester.
+
+Die <Time>Stunde</Time> hat 60 Minuten.
+
+Das <Animal>Pferd</Animal> ist ein beliebtes Reittier.
+Das <Diagnostic>Labor bei Aufnahme</Diagnostic> wurde untersucht.
+
+<Therapeutic>intravenöse Gabe von Antibiotika</Therapeutic>
+Im <Temporal>Verlauf</Temporal> der Erkrankung verschlechterte sich der Zustand des Patienten.
+
+Kontrolle
+
+Die <Diagnostic>Kontrolle</Diagnostic> der Blutwerte ergab keine Auffälligkeiten.
+
+Behandlung
+
+Die <Therapeutic>Behandlung</Therapeutic> der Schmerzen erfolgte mit Schmerzmitteln.
+
+Diagnose
+
+Die <Diagnostic>Diagnose</Diagnostic> der Erkrankung war schwierig zu stellen.
+
+Symptom
+
+Das <Symptom>Fieber</Symptom> trat plötzlich auf und hielt mehrere Tage an.
+
+Medikament
+
+Das <Therapeutic>Medikament</Therapeutic> wurde in der richtigen Dosierung verabreicht.
+
+Therapie
+
+Die <Therapeutic>Therapie</Therapeutic> umfasste sowohl medikamentöse als auch nicht-medikamentöse Maßnahmen.
+
+Operation
+
+Die <Therapeutic>Operation</Therapeutic> verlief erfolgreich und ohne Komplikationen.
+
+Krankheit
+
+Die <Pathology>Krankheit</Pathology> hatte schwerwiegende Auswirkungen auf das Leben des Patienten.
+Das rechte Ohr zeigt keinen <Diagnosis_or_Pathology>Tragusdruckschmerz</Diagnosis_or_Pathology> oder <Diagnosis_or_Pathology>Mastoisklopfschmerz</Diagnosis_or_Pathology>. Der <Other_Finding>Gehörgang</Other_Finding> ist bland und das <Other_Finding>Trommelfell</Other_Finding> unauffällig. Die <Other_Finding>Vasalva-Test</Other_Finding> ist positiv.
+Die <Clinical_Drug>Anwendung von Furosemid 40mg 1½-0-0</Clinical_Drug> wurde empfohlen.
+
+<Anatomy>Herz</Anatomy>-<Anatomy>Kreislauf-System</Anatomy> 
+Das <Anatomy>Herz</Anatomy> ist ein wichtiger Bestandteil des <Anatomy>Kreislauf-Systems</Anatomy>.
+
+<Diagnostic>Blutbild</Diagnostic> und <Diagnostic>CRP</Diagnostic> 
+Das <Diagnostic>Blutbild</Diagnostic> und das <Diagnostic>CRP</Diagnostic> wurden untersucht.
+
+<Therapeutic>Antibiotikatherapie</Therapeutic> 
+Eine <Therapeutic>Antibiotikatherapie</Therapeutic> wurde eingeleitet.
+
+<Organisation>Deutsche Gesellschaft für Ernährung</Organisation> 
+Die <Organisation>Deutsche Gesellschaft für Ernährung</Organisation> hat neue Empfehlungen herausgegeben.
+
+<Medical_Test>CT-Untersuchung</Medical_Test> 
+Eine <Medical_Test>CT-Untersuchung</Medical_Test> wurde durchgeführt.
+
+<Medical_Procedure>Herzkatheteruntersuchung</Medical_Procedure> 
+Eine <Medical_Procedure>Herzkatheteruntersuchung</Medical_Procedure> wurde durchgeführt.
+<Other_Finding>Die Implantation eines Port-a-caths</Other_Finding> fand im August 2023 statt.
+Die <Diagnosis_or_Pathology>Diagnosen</Diagnosis_or_Pathology> wurden vom Arzt gestellt und dem Patienten mitgeteilt.
+Ein <Other_Finding>kardiopulmonaler unauffälliger Auskultations- und Perkussionsbefund</Other_Finding> wurde festgestellt.
+<Other_Finding>St. p. <Therapeutic>Erhaltungstherapie</Other_Finding> mit DTIC</Therapeutic> 6.10. bis 9.10.2023 (<Diagnosis_or_Pathology>Abbruch wegen Anstieg der Leberparameter und Eosinophilie</Diagnosis_or_Pathology>)
+3. Eine <Therapeutic>Chemotherapie</Therapeutic> mit den Wirkstoffen <Clinical_Drug>Etoposid</Clinical_Drug> und <Clinical_Drug>Carboplatin</Clinical_Drug> wurde durchgeführt.
+Die E-Mail-Adresse lautet <Email>termin.dot@uniklinik-berlin.de</Email>.
+Das <Diagnostic>Aufnahme-EKG</Diagnostic> zeigte keine Auffälligkeiten.
+
+<Therapeutic>intravenöse Antibiose</Therapeutic>: 
+Die <Therapeutic>intravenöse Antibiose</Therapeutic> wurde für 10 Tage fortgesetzt.
+
+<Anatomy>Herz</Anatomy>:
+Das <Anatomy>Herz</Anatomy> schlägt regelmäßig.
+
+<Medication>Morphin</Medication>:
+Das <Medication>Morphin</Medication> wurde alle 4 Stunden verabreicht.
+
+<Procedure>Blutentnahme</Procedure>:
+Die <Procedure>Blutentnahme</Procedure> erfolgte am Morgen.
+
+<Lab>Blutbild</Lab>:
+Das <Lab>Blutbild</Lab> zeigte eine leichte Anämie.
+
+<Anatomy>Gehirn</Anatomy>:
+Das <Anatomy>Gehirn</Anatomy> ist das zentrale Nervensystem des Körpers.
+
+<Diagnostic>CT-Untersuchung</Diagnostic>:
+Die <Diagnostic>CT-Untersuchung</Diagnostic> ergab keine Hinweise auf eine Raumforderung.
+
+<Therapeutic>Physiotherapie</Therapeutic>:
+Die <Therapeutic>Physiotherapie</Therapeutic> wurde zweimal wöchentlich durchgeführt.
+<Diagnosis_or_Pathology>Reizlose Verschlussnarbe</Diagnosis_or_Pathology>, <Diagnosis_or_Pathology>großbogige flexible li.-konvexe thoracolumbale Skoliose</Diagnosis_or_Pathology>, keine <Diagnosis_or_Pathology>wesentliche Kyphose</Diagnosis_or_Pathology>. 
+
+Die Patientin hat eine <Diagnosis_or_Pathology>reizlose Verschlussnarbe</Diagnosis_or_Pathology> und eine <Diagnosis_or_Pathology>großbogige flexible li.-konvexe thoracolumbale Skoliose</Diagnosis_or_Pathology>, jedoch keine <Diagnosis_or_Pathology>wesentliche Kyphose</Diagnosis_or_Pathology>.
+<Bekannte Skoliose>Die bekannte Skoliose</Bekannte Skoliose>, <rez. HWS-BWS-Beschwerden>die rezidivierenden HWS-BWS-Beschwerden</rez. HWS-BWS-Beschwerden>.
+1. Der <Person>Arzt</Person> hat mir eine <Diagnostic>Diagnose</Diagnostic> gestellt und eine <Therapeutic>Therapie</Therapeutic> empfohlen.
+2. Die <Person>Patientin</Person> hat eine <Diagnostic>Untersuchung</Diagnostic> durchführen lassen und erhält nun eine <Therapeutic>Behandlung</Therapeutic>.
+3. Der <Person>Chirurg</Person> hat die <Diagnostic>Operation</Diagnostic> erfolgreich durchgeführt und die <Therapeutic>Wunde</Therapeutic> versorgt.
+4. Die <Person>Krankenschwester</Person> hat die <Diagnostic>Vitalwerte</Diagnostic> der <Person>Patientin</Person> gemessen und die <Therapeutic>Medikamente</Therapeutic> verabreicht.
+5. Der <Person>Physiotherapeut</Person> hat eine <Diagnostic>Untersuchung</Diagnostic> des <Therapeutic>Bewegungsapparats</Therapeutic> durchgeführt und eine <Therapeutic>Übungstherapie</Therapeutic> empfohlen.
+Eine <Therapeutic>endständige Sigmoideostomie</Therapeutic> wurde am 14.3.2033 durchgeführt.
+<Diagnostic>Kontrollen</Diagnostic>: Wiedervorstellung abhängig vom <Other_Finding>histologischen Befund</Other_Finding>.
+Die Dosierung von <Clinical_Drug>Seloken® retard 95 mg 1/2-1/2-1/2</Clinical_Drug> wurde angepasst.
+<Diagnosis_or_Pathology>Diagnosen</Diagnosis_or_Pathology>: <Diagnosis_or_Pathology>Pankreasschwankarzinom</Diagnosis_or_Pathology>, <Diagnosis_or_Pathology>ED</Diagnosis_or_Pathology> 05/11
+Mit freundlichen kollegialen Grüßen
+05.08.2022 ist <Date>vorgesehen</Date>.
+Eine <Therapeutic>Restthyreoidektomie</Therapeutic> wurde im November 2014 durchgeführt.
+Die stat. Aufnahme Ihres Pat. erfolgte zum geplanten <Therapeutic>9. Zyklus einer Chemotherapie mit <Clinical_Drug>Carboplatin</Clinical_Drug></Therapeutic>. Im <Diagnostic>extern durchgeführten CT Schädel bis Becken</Diagnostic> vom 18.8.2024 zeigte sich eine <Diagnosis_or_Pathology>suspekte Kleinhirnmetastase rechts</Diagnosis_or_Pathology>. Zusätzlich zeigte sich <Diagnosis_or_Pathology>im <Nutrient_or_Body_Substance>Harn</Nutrient_or_Body_Substance> eine ausgeprägte Leukozyturie</Diagnosis_or_Pathology>, weshalb vorerst von einer <Therapeutic>Chemotherapie</Therapeutic> Abstand genommen wurde und ein <Diagnostic>Magnetresonanztomographie des Schädels</Diagnostic> sowie eine <Therapeutic>Antibiose mit <Clinical_Drug>Ciproxin</Clinical_Drug> durchgeführt</Therapeutic> wurde. Im <Diagnostic>Magnetresonanztomographie des Schädels</Diagnostic> konnte eine <Diagnosis_or_Pathology>cerebrale Metastasierung</Diagnosis_or_Pathology> ausgeschlossen werden.
+Die Ergebnisse des <Diagnostic>Labor</Diagnostic>s waren unauffällig.
+
+<Therapeutic>Medikament</Therapeutic>: Der Patient erhielt ein <Therapeutic>Medikament</Therapeutic> zur Schmerzlinderung.
+
+<Anatomy>Herz</Anatomy>: Der Arzt untersuchte das <Anatomy>Herz</Anatomy> des Patienten.
+
+<Procedure>Operation</Procedure>: Die <Procedure>Operation</Procedure> verlief erfolgreich.
+
+<Chemical>Insulin</Chemical>: Der Diabetiker benötigt täglich eine Injektion mit <Chemical>Insulin</Chemical>.
+
+<Disease>Diabetes</Disease>: Der Patient leidet an <Disease>Diabetes</Disease>.
+
+<Organisation>WHO</Organisation>: Die <Organisation>WHO</Organisation> empfiehlt regelmäßiges Händewaschen.
+
+<Drug>Morphin</Drug>: Das <Drug>Morphin</Drug> wurde zur Schmerzlinderung verabreicht.
+
+<Anatomy>Gehirn</Anatomy>: Eine Verletzung des <Anatomy>Gehirn</Anatomy>s kann schwerwiegende Folgen haben.
+
+<Diagnostic>CT</Diagnostic>: Der Arzt ordnete eine <Diagnostic>CT</Diagnostic>-Untersuchung an.
+Die <Therapeutic>Operation</Therapeutic> wurde für den 2. Mai 2023 festgelegt, womit die Patientin einverstanden war.
+Wir berichten von der Frau Antonia Anderer, geboren am 21.03.2017, mit einem stationären Aufenthalt vom 12.12.66 bis zum 23.12.66.
+Das <Therapeutic>Procedere</Therapeutic> wurde mit dem Patienten besprochen und er stimmte der Behandlung zu.
